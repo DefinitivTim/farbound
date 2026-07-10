@@ -1,6 +1,1 @@
-To get the full experience from the modpack, you need to download a few mods first, and some need to be renamed. Simply click the buttons to do this.
-1. Download the mods using the button
-2. Move the mods into the mods folder (open the folder using the button)
-3. Activate the other mods using the button
-4. Restart Farbound.
-5. Done
+To get the full experience from the modpack, you'll need to download a few mods first, some of which need to be renamed, simply by clicking the buttons provided. Start by downloading the mods using the button, then move them into the mods folder, which you can open directly using the button, next activate the other mods using the corresponding button, and finally restart Farbound to finish.

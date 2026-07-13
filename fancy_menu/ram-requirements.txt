@@ -1,0 +1,1 @@
+Farbound requires a minimum of 8GB of RAM allocated to Minecraft. If you plan to use Distant Horizons, we recommend allocating at least 12GB for smooth performance, since extended render distances are memory-intensive.

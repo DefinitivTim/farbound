@@ -1,0 +1,3 @@
+Farbound {"placeholder":"webtext","values":{"link":"https://raw.githubusercontent.com/DefinitivTim/farbound/refs/heads/main/fancy_menu/version.txt"}}
+Minecraft {"placeholder":"mcversion"}
+NeoForge {"placeholder":"loaderver"} 

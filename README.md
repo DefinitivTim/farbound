@@ -23,15 +23,24 @@ Vast continents, towering structures, living oceans, and quiet corners that feel
 
 ---
 
+## 🍞 A Table Worth Setting
+
+In Farbound, food is not a hunger bar. It is a craft. Forage wild vegetables, plant an orchard, tend rice paddies, and turn your harvest into real dishes with **Farmer's Delight** and a whole family of cooking mods. Run a bakery with rising dough and fresh loaves, brew beer and herbal teas, press wine from your own hillside vineyard, and plate up cuisine from every dimension. And when your kitchen outgrows your ladle, Create is right there: automate the chopping, the mixing, the baking, until your galley feeds a whole crew.
+
+Some of the best moments in the pack happen between journeys, standing at a stove.
+
+---
+
 ## 🕯️ And a Home Worth Returning To
 
-Exploring is only half the story. The other half smells like fresh bread. Farbound gives you everything you need to build a place you actually want to live in: a bakery, a tavern, a vineyard on the hillside, a campfire under the stars. Cook real meals, furnish your rooms, take photographs of your travels, and hang them on the wall. The best expeditions are the ones with a warm bed at the end.
+Exploring is only half the story. The other half smells like fresh bread. Farbound gives you everything you need to build a place you actually want to live in: a tavern, a campfire under the stars, a pantry full of things you grew yourself. Furnish your rooms, take photographs of your travels, and hang them on the wall. The best expeditions are the ones with a warm bed at the end.
 
 ---
 
 ## 📜 Quests to Guide You, Not Push You
 
 A full set of questlines runs through the pack, from your very first steps to the far reaches of the world. They introduce the machines, celebrate your milestones, and quietly point toward things you might have missed. Follow them closely or dip in whenever you like. They are a travel journal and a gentle guide, never a checklist you owe anyone.
+
 
 ---
 
@@ -41,8 +50,11 @@ A full set of questlines runs through the pack, from your very first steps to th
 - Airships, watercraft, and land vehicles
 - Questlines that accompany your whole journey
 - New biomes, structures, and living oceans to discover
-- Cooking, farming, and decoration for a home you will love
+- Deep cooking and farming, from foraging to bakery, brewery, and vineyard
+- Kitchen automation where Create meets the cutting board
+- Decoration and furniture for a home you will love
 - Earned progression without heavy grind
+- Hundreds of hand-picked mods, tuned to work as one pack
 - A stable, curated experience with performance in mind
 
 ---

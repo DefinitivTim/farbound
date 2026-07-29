@@ -15,6 +15,8 @@ At the heart of Farbound sits **Create: Aeronautics**. You will sketch your firs
 
 Your vessel is more than transport. It is your workshop, your home, and your favorite project all in one.
 
+And because **Create** is the beating heart of the pack, the workshop never gets boring. Farbound ships with one of the largest curated collections of Create addons around: trains, diesel engines, factory logistics, radar, big cannons, even nuclear power. If it spins, Farbound has a gear for it.
+
 ---
 
 ## 🌍 A World That Rewards the Curious
@@ -23,17 +25,9 @@ Vast continents, towering structures, living oceans, and quiet corners that feel
 
 ---
 
-## 🍞 A Table Worth Setting
-
-In Farbound, food is not a hunger bar. It is a craft. Forage wild vegetables, plant an orchard, tend rice paddies, and turn your harvest into real dishes with **Farmer's Delight** and a whole family of cooking mods. Run a bakery with rising dough and fresh loaves, brew beer and herbal teas, press wine from your own hillside vineyard, and plate up cuisine from every dimension. And when your kitchen outgrows your ladle, Create is right there: automate the chopping, the mixing, the baking, until your galley feeds a whole crew.
-
-Some of the best moments in the pack happen between journeys, standing at a stove.
-
----
-
 ## 🕯️ And a Home Worth Returning To
 
-Exploring is only half the story. The other half smells like fresh bread. Farbound gives you everything you need to build a place you actually want to live in: a tavern, a campfire under the stars, a pantry full of things you grew yourself. Furnish your rooms, take photographs of your travels, and hang them on the wall. The best expeditions are the ones with a warm bed at the end.
+Exploring is only half the story. The other half smells like fresh bread. Cook real meals with **Farmer's Delight** and its many addons, plant an orchard, and once your machines wake up, let Create run the kitchen for you. Furnish your rooms, take photographs of your travels, and hang them on the wall. The best expeditions are the ones with a warm bed at the end.
 
 ---
 
@@ -47,11 +41,11 @@ A full set of questlines runs through the pack, from your very first steps to th
 ## 📦 What to Expect
 
 - Engineering and travel with **Create** and **Create: Aeronautics**
+- A deep bench of Create addons, from trains and diesel to radar and nuclear power
 - Airships, watercraft, and land vehicles
 - Questlines that accompany your whole journey
 - New biomes, structures, and living oceans to discover
-- Deep cooking and farming, from foraging to bakery, brewery, and vineyard
-- Kitchen automation where Create meets the cutting board
+- Cooking and farming with Farmer's Delight and friends, automatable with Create
 - Decoration and furniture for a home you will love
 - Earned progression without heavy grind
 - Hundreds of hand-picked mods, tuned to work as one pack

@@ -5,7 +5,7 @@
 Farbound ist ein Modpack für **Minecraft 1.21.1 (NeoForge)** rund um **Create** und **Create: Aeronautics**. Du baust Luftschiffe, Dampfschiffe, U-Boote, Züge und Landfahrzeuge und fährst damit in eine Welt, die Neugier belohnt. Zwischen den Expeditionen kehrst du in eine Werkstatt, eine warme Küche und ein Lagerfeuer unter den Sternen zurück.
 
 > [!NOTE]
-> Farbound befindet sich in aktiver Entwicklung (Alpha). Inhalte und Mods ändern sich zwischen Versionen. Sichere deine Welten vor jedem Update.
+> **Farbound 1.0.0 ist veröffentlicht.** Es wird weiter gepflegt und aktualisiert. Sichere deine Welten trotzdem vor jedem Update.
 
 ## Installation
 

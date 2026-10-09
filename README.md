@@ -6,7 +6,7 @@
 
 ![Minecraft 1.21.1](https://img.shields.io/badge/Minecraft-1.21.1-62b47a?style=flat-square)
 ![NeoForge](https://img.shields.io/badge/NeoForge-21.1-e68c37?style=flat-square)
-![Status: Alpha](https://img.shields.io/badge/status-alpha-d9a441?style=flat-square)
+![Release 1.0.0](https://img.shields.io/badge/release-1.0.0-d9a441?style=flat-square)
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/nIg3xzXz?logo=modrinth&label=Modrinth&style=flat-square&color=1bd96a)](https://modrinth.com/modpack/farbound)
 
 **[Download on Modrinth](https://modrinth.com/modpack/farbound)**  ·  **[Wiki](https://github.com/DefinitivTim/farbound/wiki)**  ·  **[Report a bug](https://github.com/DefinitivTim/farbound/issues/new/choose)**
@@ -22,7 +22,7 @@ Farbound is a Minecraft modpack for **1.21.1 on NeoForge**, built around **Creat
 Most Create packs stay on the ground: belts, factories, automation. Farbound puts the focus on **movement, exploration and home**. Your vessel is workshop, base and transport in one.
 
 > [!NOTE]
-> Farbound is in **active development** (currently alpha). Content, mods and configs change between versions. Back up your worlds before updating.
+> **Farbound 1.0.0 is out.** The pack keeps receiving updates, so back up your worlds before updating.
 
 ## Highlights
 

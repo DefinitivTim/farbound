@@ -67,6 +67,7 @@ Everything lives in the [wiki](https://github.com/DefinitivTim/farbound/wiki):
 | Tune performance | [Performance and Settings](https://github.com/DefinitivTim/farbound/wiki/Performance-and-Settings) |
 | Play on a server | [Multiplayer](https://github.com/DefinitivTim/farbound/wiki/Multiplayer) |
 | Fix a problem | [Troubleshooting](https://github.com/DefinitivTim/farbound/wiki/Troubleshooting) |
+| See what changed in each version | [Changelog](CHANGELOG.md) |
 | Find quick answers | [FAQ](https://github.com/DefinitivTim/farbound/wiki/FAQ) |
 
 ## Design pillars
@@ -92,6 +93,7 @@ This repository holds the public face of the pack: documentation, issue tracking
 | Path | Purpose |
 |---|---|
 | `fancy_menu/` | Text files used by the in-game menu (version check, RAM notice, splash texts). Do not rename. |
+| `CHANGELOG.md` | What changed in each version |
 | `license.md` | License of Farbound's own content |
 | Wiki | Player documentation |
 

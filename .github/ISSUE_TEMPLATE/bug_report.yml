@@ -1,0 +1,77 @@
+name: Bug report
+description: Something is broken, crashes or behaves wrongly.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping! Please check the [Troubleshooting page](https://github.com/DefinitivTim/farbound/wiki/Troubleshooting) first.
+        Known: moving airships can render wrongly with Iris shaders. Try without shaders before reporting.
+  - type: input
+    id: pack_version
+    attributes:
+      label: Farbound version
+      description: Shown on the title screen and in your launcher.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: launcher
+    attributes:
+      label: Launcher
+      options:
+        - Modrinth App
+        - Prism Launcher
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Singleplayer or multiplayer?
+      options:
+        - Singleplayer
+        - Multiplayer (client)
+        - Multiplayer (server side problem)
+    validations:
+      required: true
+  - type: input
+    id: ram
+    attributes:
+      label: Allocated RAM and system
+      description: RAM given to the instance, CPU and GPU if it is a performance issue.
+      placeholder: "12 GB, Ryzen 5 5600, RTX 3060"
+    validations:
+      required: true
+  - type: checkboxes
+    id: extras
+    attributes:
+      label: Active during the problem
+      options:
+        - label: Shaders (Iris)
+        - label: Distant Horizons
+        - label: Atmospherics
+        - label: I added, removed or updated mods myself
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you get instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: For vehicle problems, describe the build (size, propellers, what was nearby).
+      placeholder: |
+        1. ...
+        2. ...
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Paste a link to your `latest.log` (for example via https://mclo.gs) or attach it.
+        For crashes, include the file from the `crash-reports` folder.

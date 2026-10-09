@@ -1,0 +1,30 @@
+name: Suggestion or mod request
+description: An idea for the pack, a quest, a balance change or a mod to add.
+title: "[Suggestion] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Farbound is curated. A suggestion has the best chance if it
+        - improves building, steering or using vessels (air, sea or land),
+        - rewards exploration or makes the home more cozy, or
+        - improves performance and stability.
+
+        For mod requests: the mod must support NeoForge 1.21.1 and allow redistribution in a public modpack.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it fit Farbound?
+      description: Which design pillar does it serve?
+  - type: input
+    id: link
+    attributes:
+      label: Link (for mod requests)
+      placeholder: "https://modrinth.com/mod/..."

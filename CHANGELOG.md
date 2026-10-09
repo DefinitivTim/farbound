@@ -13,7 +13,7 @@ Always back up your worlds before updating.
 - [Critters and Companions](https://modrinth.com/project/Yd4wb5wZ)
 - [Constant Music](https://modrinth.com/project/tvuSEM6E)
 - [Reactive Music](https://modrinth.com/project/Bqnfeesx)
-- Lighty
+- [Lighty](https://modrinth.com/mod/lighty)
 
 ### Changed
 - Four quest-related mods were moved out of the main pack into a separate download, because keeping them inside prevented the launcher from applying updates:
@@ -21,8 +21,6 @@ Always back up your worlds before updating.
   - ExtraQuests
   - FTBQuestsOptimizer
   - more_quest_types
-
-  If you want them, install them from the extra download. The pack works without them.
 
 ### Fixed
 - The configs of Advancement Disable Mod were adjusted, so **Keep Some Inventory works again**.

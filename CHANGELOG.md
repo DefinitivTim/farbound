@@ -3,6 +3,34 @@
 All notable changes to Farbound are documented here. Newest version first.
 Always back up your worlds before updating.
 
+## 1.0.3 (2026-10-14)
+
+### Added
+- New accessory slots for spyglasses, gliders and lanterns.
+
+### Changed
+- Goggles and glasses now go into the dedicated glasses and goggles slots.
+- Resource pack adjustments: new textures for buttons, sliders and other menu elements, new food and air bubble icons, and a new hotbar.
+- The Farbound logo was updated.
+- The Create questlines were reordered so the progression follows a logical order.
+- Updated 39 mods: AsyncParticles, BCLib, Better Days, Better End, Better Nether, C2ME, Collective, Create: Gears and Tavern, Icy's Better Horses, ImmediatelyFast, Kaleidoscope Compat, Kaleidoscope Cookery, Let's Do Alpine Whispers, Let's Do Bakery, Let's Do Brewery, Let's Do Candlelight, Let's Do Farm & Charm, Let's Do Furniture, Let's Do Hearth & Timber, Let's Do Wilder Nature, Lightspeed, Lithostitched, Optimized Block Entities, Placebo, Polytone, Punchy, Reliable EMI (REMI), Sophisticated Backpacks, Sophisticated Backpacks Create Integration, Sophisticated Core, Sophisticated Storage, Sophisticated Storage Create Integration, Sophisticated Storage In Motion, Subtle Effects, Supplementaries, Take a Seat, VS Sable Hose Connectors, WorldWeaver, WunderLib.
+
+## 1.0.2fix (2026-10-10)
+
+> [!IMPORTANT]
+> **Your `options.txt` will be overwritten again by this update.** Back it up first if you want to keep your video settings and other client options.
+
+### Changed
+- The default `options.txt` was adjusted again.
+
+## 1.0.2 (2026-10-10)
+
+> [!IMPORTANT]
+> **Your `options.txt` will be overwritten again by this update.** Back it up first if you want to keep your video settings and other client options. This time the default keybinds in the file are correct.
+
+### Added
+- [Scribble](https://modrinth.com/project/yXAvIk0x)
+
 ## 1.0.1 (2026-10-10)
 
 > [!IMPORTANT]

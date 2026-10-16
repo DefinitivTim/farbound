@@ -3,6 +3,11 @@
 All notable changes to Farbound are documented here. Newest version first.
 Always back up your worlds before updating.
 
+## 1.0.4 (2026-10-15)
+
+### Changed
+- Updated 9 mods: AsyncLogger, Collective, Create Aeronautics: Automated Logistics, Create Lazy Tick, Entity Model Features, Entity Texture Features, Let's Do Wilder Nature, Nature's Delight, Nature's Spirit.
+
 ## 1.0.3 (2026-10-14)
 
 ### Added

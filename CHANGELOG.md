@@ -3,6 +3,76 @@
 All notable changes to Farbound are documented here. Newest version first.
 Always back up your worlds before updating.
 
+## 1.1.0: Tracks & Tides (2026-10-22)
+
+### Highlights
+- **Quests completely reworked.** Every questline was rebuilt from the ground up.
+- **Changelogs in game.** You can now read what changed right inside the game.
+- **Create: Steam 'n' Rails is in.** Trains and railways are now part of the pack.
+- **Vanilla Backport update.** More of modern Minecraft, now including:
+  - Features from the Copper Age drop
+  - Features from the Mounts of Mayhem drop
+  - Some miscellaneous features from the Wilderness Bound drop
+- **Tom's Simple Storage.** A tidy way to connect your chests and reach everything from one place.
+- **Copper and Zinc are renewable.** Create: Copper and Zinc can now be produced again and again, so you never run dry.
+- **Deep Sea update.** Create Deep Seas brings pressure models and more for deeper dives.
+- **Hybrid Birds.** Birds now take to the air and fly around the world.
+- **Kaleidoscope mods are gone.** The pack is leaner and cleaner without them.
+- **SimpleHats are gone.**
+- **Distant Horizons is optional.** Enable it in the options, a restart is required. Loading screens can take up to 60 seconds longer with it.
+- **New resource packs.** Create Ultra, Metals Ultra and Stained Glass Ultra are available.
+- **Faster loading.** Loading times are 10 to 30 seconds shorter, depending on your system.
+
+> [!IMPORTANT]
+> Several content mods were removed in this update. Items and blocks from them will disappear from existing worlds. Please back up your worlds before updating.
+
+### Changed
+- Completely reworked the quest system.
+- Reduced startup time by 10 to 30 seconds, depending on your system.
+- Updated NeoForge to 21.1.264.
+
+### Added
+- Added an in-game changelog viewer.
+- Added Create: Steam 'n' Rails, Create: Copper and Zinc, Create Contraption Terminals, Create Aeronautics Physics Gantry, Tom's Simple Storage, Hybrid Birds, Hybrid Delights, Magic Vibe Decorations, Let's Do Smoker and Better Than Mending.
+- Re-enabled Apple Wood Rebarked.
+- Added performance mods: Async, BBE, Faster Iris Shadow Mapper, Ixeris, Random Optimization and Dynamic Sound Culling.
+
+### Removed
+- Removed Kaleidoscope Cookery, Tavern, Nether and End.
+- Removed Create: Gears and Tavern, Ender's Delight, Spud's Shops, Better Beds, SimpleHats, Grind Enchantments and Field Guide.
+- Removed Constant Music, Reactive Music, Entity Sound Features, Fancy Entity Renderer, Optimized Block Entities, Smooth Boot, CIT Resewn and Extra Mod Integrations.
+
+### Updated mods
+- Updated 52 mods: 3d-Skin-Layers, Accessories, Accessories Compatibility Layer, AdvancedCoreInfo, AdvancedLootInfo, Almanac, AmbientSounds, Amendments, AsyncParticles, BCLib, Better End, Better Mods Button, Better Nether, Certain Questing Additions, Cinematic Respawn, Climbable Ropes for Create Aeronautics, Collective, Continuity: NeoForged, Create Deep Seas, Create Encased, Create: Compatible Storage, Create: Sound of Steam, Enhanced Boss Bars, Envelope, Fallingleaves, Forgified Fabric API, Friends & Foes, Icy's Better Horses, Immersive Overlays, Let's Do Bakery, Let's Do Meadow, LetMeDespawn, Lightspeed, Nature's Spirit, oωo, Petrolpark's Library, Platform, Polytone, Punchy, Puzzles Lib, Separate Sable Render Distance, Sophisticated Backpacks, Sophisticated Core, Sophisticated Storage, Sound Physics Remastered, Starter Kit, Supplementaries, The Lead Age, Vanilla Backport Compat, VanillaBackport, WaveyCapes, WorldWeaver.
+
+## 1.0.4fix3 (2026-10-18)
+
+### Removed
+- Removed Carry On and its EMF Compat addon, because it caused severe client lag.
+
+## 1.0.4fix2 (2026-10-17)
+
+### Fixed
+- Adjusted the seat config to fix severe lag when sitting on a slab or stair while in a vehicle.
+
+## 1.0.4fix (2026-10-16)
+
+### Added
+- Added Create: Ballast, a ballast block that makes balancing Create Aeronautics contraptions easier.
+- Enabled Presence Footsteps and Presence Footsteps x Sable for more natural footstep sounds, including on Sable contraptions.
+
+### Removed
+- Removed MoreJS.
+- Removed Carry On and its EMF Compat addon.
+- Removed EMI Loot and EMI Ores.
+
+### Fixed
+- Fixed a crash when opening a villager's trade screen on a server. It was caused by a client and server mismatch.
+- Fixed a joining error caused by mismatched mod versions.
+
+### Changed
+- Updated 15 mods: Collective, EMF Compat: Core, EMF Compat: Immersive Melodies, EMF Compat: Supplementaries, EMF Compat: Take a Seat, Enhanced Boss Bars, Field Guide, Icy's Better Horses, Let's Do Farm & Charm, Let's Do Furniture, Let's Do Vinery, Lightspeed, SeeU, Sophisticated Core, Sophisticated Storage.
+
 ## 1.0.4 (2026-10-15)
 
 ### Changed

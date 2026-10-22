@@ -3,6 +3,11 @@
 All notable changes to Farbound are documented here. Newest version first.
 Always back up your worlds before updating.
 
+## 1.1.0fix (2026-10-22)
+
+### Fixed
+- Rolled back Create Deep Seas from 3.4.4 to 3.3.0, because the newer version made airships take off and fly away on their own.
+
 ## 1.1.0: Tracks & Tides (2026-10-22)
 
 ### Highlights

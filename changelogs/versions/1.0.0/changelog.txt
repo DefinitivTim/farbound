@@ -1,0 +1,9 @@
+First official release of Farbound for Minecraft 1.21.1 (NeoForge).
+
+- Vehicles of every kind: walkable airships with Create: Aeronautics, steamships and submarines, trains and land vehicles, and rockets late in the pack
+- A world worth crossing: vast continents, hand-crafted structures in every dimension, living oceans, loot instanced per player
+- A large, curated collection of Create addons: logistics, diesel, radar, cannons, electronics, nuclear power
+- A home worth returning to: cooking, baking, brewing, a tavern, a cheese cellar, furniture, photography, instruments
+- A quest book as a travel journal, replacing the vanilla advancements
+- A full optimization stack; heavy extras like Distant Horizons are optional and ship disabled
+- Known issue: Iris shaders can cause rendering problems on moving airships

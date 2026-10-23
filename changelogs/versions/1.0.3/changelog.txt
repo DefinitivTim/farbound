@@ -1,0 +1,11 @@
+### Added
+- New accessory slots for spyglasses, gliders and lanterns.
+
+### Changed
+- Goggles and glasses now go into the dedicated glasses and goggles slots.
+- Resource pack adjustments: new textures for buttons, sliders and other menu elements, new food and air bubble icons, and a new hotbar.
+- The Farbound logo was updated.
+- The Create questlines were reordered so the progression follows a logical order.
+
+### Updated mods
+AsyncParticles, BCLib, Better Days, Better End, Better Nether, C2ME, Collective, Create: Gears and Tavern, Icy's Better Horses, ImmediatelyFast, Kaleidoscope Compat, Kaleidoscope Cookery, Let's Do Alpine Whispers, Let's Do Bakery, Let's Do Brewery, Let's Do Candlelight, Let's Do Farm & Charm, Let's Do Furniture, Let's Do Hearth & Timber, Let's Do Wilder Nature, Lightspeed, Lithostitched, Optimized Block Entities, Placebo, Polytone, Punchy, Reliable EMI (REMI), Sophisticated Backpacks, Sophisticated Backpacks Create Integration, Sophisticated Core, Sophisticated Storage, Sophisticated Storage Create Integration, Sophisticated Storage In Motion, Subtle Effects, Supplementaries, Take a Seat, VS Sable Hose Connectors, WorldWeaver, WunderLib.

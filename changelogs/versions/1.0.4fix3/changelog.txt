@@ -1,0 +1,2 @@
+### Removed
+- Removed Carry On and its EMF Compat addon, because it caused severe client lag.

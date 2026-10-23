@@ -4,11 +4,117 @@
   "versions": [
     {
       "id": "1.0.0",
-      "releasedAt": 1761000000000
+      "releasedAt": 1791540000000,
+      "updateType": "major",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/farbound"
+        }
+      }
+    },
+    {
+      "id": "1.0.0fix",
+      "releasedAt": 1791568800000,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/farbound"
+        }
+      }
     },
     {
       "id": "1.0.1",
-      "releasedAt": 1792743000000,
+      "releasedAt": 1791615600000,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/farbound"
+        }
+      }
+    },
+    {
+      "id": "1.0.2",
+      "releasedAt": 1791626400000,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/farbound"
+        }
+      }
+    },
+    {
+      "id": "1.0.2fix",
+      "releasedAt": 1791648000000,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/farbound"
+        }
+      }
+    },
+    {
+      "id": "1.0.3",
+      "releasedAt": 1791972000000,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/farbound"
+        }
+      }
+    },
+    {
+      "id": "1.0.4",
+      "releasedAt": 1792058400000,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/farbound"
+        }
+      }
+    },
+    {
+      "id": "1.0.4fix",
+      "releasedAt": 1792144800000,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/farbound"
+        }
+      }
+    },
+    {
+      "id": "1.0.4fix2",
+      "releasedAt": 1792231200000,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/farbound"
+        }
+      }
+    },
+    {
+      "id": "1.0.4fix3",
+      "releasedAt": 1792317600000,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/farbound"
+        }
+      }
+    },
+    {
+      "id": "1.1.0",
+      "releasedAt": 1792663200000,
+      "updateType": "major",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/farbound"
+        }
+      }
+    },
+    {
+      "id": "1.1.0fix",
+      "releasedAt": 1792684800000,
       "updateType": "minor",
       "promotions": {
         "downloads": {

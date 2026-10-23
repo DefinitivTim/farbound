@@ -1,11 +1,11 @@
 A quick patch to keep your airships where you parked them.
 
 FIXED
-- Rolled back Create Deep Seas to 3.3.0.
-- The newer 3.4.4 made airships take off and fly away on their own.
+
+- Rolled back Create Deep Seas to 3.3.0. The newer 3.4.4 made airships take off and fly away on their own.
 
 MOD SHELF
-Downgraded
-- Create Deep Seas: 3.4.4 -> 3.3.0
 
-Fair winds, Tim
+Downgraded
+
+- Create Deep Seas: 3.4.4 → 3.3.0

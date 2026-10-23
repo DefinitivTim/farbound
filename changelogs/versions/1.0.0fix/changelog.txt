@@ -1,4 +1,3 @@
 FIXED
-- Shader packs were only partially included in
-  1.0.0. The shader pack selection is now
-  complete.
+
+- Shader packs were only partially included in 1.0.0. The shader pack selection is now complete.

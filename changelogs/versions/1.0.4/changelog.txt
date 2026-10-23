@@ -1,13 +1,13 @@
 MOD SHELF
+
 9 mods were updated.
 
-- AsyncLogger: 2.2.2 -> 2.2.3
-- Collective: 8.52 -> 8.53
-- Create Aeronautics: Automated Logistics: 0.6.2
-  -> 0.7.0
-- Create Lazy Tick: 2.7.30-6.0.10 -> 2.7.31-6.0.10
-- Entity Model Features: 3.3.11 -> 3.3.12
-- Entity Texture Features: 7.2.5 -> 7.2.6
-- Let's Do Wilder Nature: 1.1.7 -> 1.1.8
-- Nature's Delight: 1.13.1 -> 1.13.2
-- Nature's Spirit: 2.2.5 -> 2.2.6
+- AsyncLogger: 2.2.2 → 2.2.3
+- Collective: 8.52 → 8.53
+- Create Aeronautics: Automated Logistics: 0.6.2 → 0.7.0
+- Create Lazy Tick: 2.7.30-6.0.10 → 2.7.31-6.0.10
+- Entity Model Features: 3.3.11 → 3.3.12
+- Entity Texture Features: 7.2.5 → 7.2.6
+- Let's Do Wilder Nature: 1.1.7 → 1.1.8
+- Nature's Delight: 1.13.1 → 1.13.2
+- Nature's Spirit: 2.2.5 → 2.2.6

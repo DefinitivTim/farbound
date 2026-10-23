@@ -1,40 +1,22 @@
-First official release of Farbound for Minecraft
-  1.21.1 on NeoForge.
+First official release of Farbound for Minecraft 1.21.1 on NeoForge.
 
 HIGHLIGHTS
-- Vehicles of every kind: walkable airships with
-  Create: Aeronautics, steamships and submarines,
-  trains and land vehicles, and late in the pack,
-  rockets.
-- A world worth crossing: vast continents, hand-
-  crafted structures in every dimension and living
-  oceans. Structure loot is instanced per player.
-- Engineering without a wall: a large, curated
-  collection of Create addons covering logistics,
-  diesel, radar, cannons, electronics and nuclear
-  power.
-- A home worth returning to: cooking, baking,
-  brewing, a tavern, a cheese cellar, furniture,
-  photography and instruments, all automatable
-  with Create.
-- Quests as a travel journal: a large quest book
-  that guides without gating. Vanilla advancements
-  are replaced by quests that fit the pack.
-- Built to run: a full optimization stack. Heavy
-  extras like Distant Horizons are optional and
-  ship disabled.
+
+- Vehicles of every kind: walkable airships with Create: Aeronautics, steamships and submarines, trains and land vehicles, and late in the pack, rockets.
+- A world worth crossing: vast continents, hand-crafted structures in every dimension and living oceans. Structure loot is instanced per player.
+- Engineering without a wall: a large, curated collection of Create addons covering logistics, diesel, radar, cannons, electronics and nuclear power.
+- A home worth returning to: cooking, baking, brewing, a tavern, a cheese cellar, furniture, photography and instruments, all automatable with Create.
+- Quests as a travel journal: a large quest book that guides without gating. Vanilla advancements are replaced by quests that fit the pack.
+- Built to run: a full optimization stack. Heavy extras like Distant Horizons are optional and ship disabled.
 
 PACK DETAILS
-- Create, Create: Aeronautics and Sable as the
-  technical core.
-- Custom item stack groups for REMI, built by
-  hand.
-- Custom main menu with version check and RAM
-  notice.
+
+- Create, Create: Aeronautics and Sable as the technical core.
+- Custom item stack groups for REMI, built by hand.
+- Custom main menu with version check and RAM notice.
 - Client and server support.
-- Recommended: 8 GB RAM (12 GB with Distant
-  Horizons).
+- Recommended: 8 GB RAM (12 GB with Distant Horizons).
 
 KNOWN ISSUES
-- Shaders (Iris) can cause rendering problems on
-  moving airships. See [[Troubleshooting]].
+
+- Shaders (Iris) can cause rendering problems on moving airships. See Troubleshooting.

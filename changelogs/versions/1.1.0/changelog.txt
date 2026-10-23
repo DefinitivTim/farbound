@@ -1,101 +1,95 @@
-Ahoy, Farbounders!
-Rails now run through the world, the quests
-have a fresh start and the pack loads faster.
+Important: Several content mods were removed in this update. Their items and blocks will disappear from existing worlds. Please back up your worlds before updating.
 
-IMPORTANT
-Several content mods were removed. Their items
-and blocks vanish from existing worlds.
-Please back up your worlds first.
+Ahoy, Farbounders! Rails now run through the world, the quests have a fresh start, and the pack wakes up 10 to 30 seconds faster. Time to head out and come back with a few stories.
 
 SETTING SAIL
-- Quests rebuilt from the ground up
-- Changelogs in game
-- Create: Steam 'n' Rails (trains and railways)
-- Vanilla Backport update
-- Tom's Simple Storage
-- Renewable Copper and Zinc
-- Hybrid Birds
-- Loading is 10 to 30 seconds faster
-- Kaleidoscope mods and SimpleHats are gone
-- Distant Horizons is optional (restart needed,
-  loading can take up to 60 s longer)
-- New resource packs: Create Ultra, Metals Ultra,
-  Stained Glass Ultra
+
+- Quests, rebuilt from the ground up. Every questline got a fresh start.
+- Changelogs in game. Read what changed without leaving the game.
+- Create: Steam 'n' Rails. Trains and railways are now part of the pack.
+- Vanilla Backport update. More of modern Minecraft, including features from the Copper Age and Mounts of Mayhem drops and a few from Wilderness Bound.
+- Tom's Simple Storage. Connect your chests and reach everything from one place.
+- Renewable Copper and Zinc. Create: Copper and Zinc can be produced again and again, so you never run dry.
+- Hybrid Birds. Birds now take to the air and fly around the world.
+- Faster loading. Startup is 10 to 30 seconds shorter, depending on your system.
+- Leaner pack. The Kaleidoscope mods and SimpleHats are gone.
+- Distant Horizons is optional. Enable it in the options (restart required). Loading screens can take up to 60 seconds longer with it.
+- New resource packs. Create Ultra, Metals Ultra and Stained Glass Ultra.
 
 NEW ARRIVALS
-- Create Contraption Terminals
-- Create Aeronautics Physics Gantry
-- Hybrid Delights, Magic Vibe Decorations
-- Let's Do Smoker, Better Than Mending
+
+- Create: Steam 'n' Rails, Create: Copper and Zinc, Create Contraption Terminals and Create Aeronautics Physics Gantry
+- Tom's Simple Storage, Hybrid Birds, Hybrid Delights, Magic Vibe Decorations, Let's Do Smoker and Better Than Mending
 - Apple Wood Rebarked is back
-- Performance mods: Async, BBE, Faster Iris
-  Shadow Mapper, Ixeris, Random Optimization,
-  Dynamic Sound Culling
+- Performance mods: Async, BBE, Faster Iris Shadow Mapper, Ixeris, Random Optimization and Dynamic Sound Culling
 
 UNDER THE HOOD
-- NeoForge updated to 21.1.264
+
+- Completely reworked the quest system.
+- Added the in-game changelog viewer.
+- Reduced startup time by 10 to 30 seconds.
+- Updated NeoForge to 21.1.264.
 
 FAREWELLS
-- Kaleidoscope Cookery, Tavern, Nether, End
-- Create: Gears and Tavern, Ender's Delight
-- Spud's Shops, Better Beds, SimpleHats
-- Grind Enchantments, Field Guide
-- Constant Music, Reactive Music
-- Entity Sound Features, Fancy Entity Renderer
-- Optimized Block Entities, Smooth Boot
-- CIT Resewn, Extra Mod Integrations
+
+- Kaleidoscope Cookery, Tavern, Nether and End
+- Create: Gears and Tavern, Ender's Delight, Spud's Shops, Better Beds, SimpleHats, Grind Enchantments and Field Guide
+- Constant Music, Reactive Music, Entity Sound Features, Fancy Entity Renderer, Optimized Block Entities, Smooth Boot, CIT Resewn and Extra Mod Integrations
 
 MOD SHELF
-50 mods updated
-- 3d-Skin-Layers: 1.11.3 -> 1.11.4
-- Accessories: 1.1.0-beta.53 -> 1.1.0-beta.54
-- Accessories Compatibility Layer: 0.1.12 -> 0.1.13
-- AdvancedCoreInfo: 1.4.0 -> 1.5.0
-- AdvancedLootInfo: 2.4.0 -> 2.5.0
-- Almanac: 1.5.2 -> 1.26.10.3
-- AmbientSounds: 6.3.10 -> 6.3.11
-- Amendments: 2.1.11 -> 2.2.0
-- AsyncParticles: 21.1.4.7 -> 21.1.4.10
-- BCLib: 21.0.27 -> 21.0.28
-- Better End: 21.0.37 -> 21.0.38
-- Better Mods Button: 21.1.0 -> 21.1.1
-- Better Nether: 21.0.28 -> 21.0.29
-- Cinematic Respawn: 1.4.0 -> 1.4.1
-- Climbable Ropes for Create Aeronautics: 2.1.4 -> 2.2.0
-- Collective: 8.54 -> 8.62
-- Continuity: NeoForged: 3.0.0 -> 3.0.9
-- Create Encased: 1.9.0-ht3 -> 1.10.0
-- Create: Compatible Storage: 2.13.0 -> 2.14.0
-- Enhanced Boss Bars: 1.1.1 -> 1.1.2
-- Envelope: 0.7.5 -> 0.8.0
-- Fallingleaves: 2.5.1 -> 2.6.0
-- Forgified Fabric API: 0.116.15+2.3.5 -> 0.116.15+2.3.6
-- Friends & Foes: 5.0.2 -> 5.0.3
-- Icy's Better Horses: 2.1.3 -> 2.1.4
-- Immersive Overlays: 1.8.5 -> 1.8.6
-- Let's Do Bakery: 2.1.10 -> 2.1.11
-- Let's Do Meadow: 1.4.9 -> 1.4.10
-- LetMeDespawn: 1.5.0 -> 1.26.10.2
-- Lightspeed: 2.0.5 -> 2.0.5+hotfix
-- Nature's Spirit: 2.2.6 -> 2.3.1
-- oωo: 0.12.15.5-beta.1 -> 0.12.15.6-beta.1
-- Petrolpark's Library: 1.5.10 -> 1.5.12
-- Pipe Organs: 0.8.2 -> 0.9.2.1
-- Platform: 1.3.3 -> 1.4
-- Polytone: 5.1.2 -> 5.2.0
-- Punchy: 2.8f -> 2.8g
-- Puzzles Lib: 21.1.64 -> 21.1.65
-- Separate Sable Render Distance: 1.8.6 -> 1.8.7
-- Sophisticated Backpacks: 3.26.12 -> 3.26.14
-- Sophisticated Core: 1.5.13 -> 1.5.17
-- Sophisticated Storage: 1.6.7 -> 1.6.8
-- Sound Physics Remastered: 1.5.1 -> 1.5.2
-- Starter Kit: 8.3 -> 9.0
-- Supplementaries: 4.0.1 -> 4.0.2
-- The Lead Age: 1.1.2 -> 1.2.0
-- Vanilla Backport Compat: 2.2 -> 2.3
-- VanillaBackport: 1.1.7.10 -> 1.2
-- WaveyCapes: 1.11.2 -> 1.11.3
-- WorldWeaver: 21.0.27 -> 21.0.29
 
-Fair winds and soft landings. Tim
+50 mods were updated.
+
+- 3d-Skin-Layers: 1.11.3 → 1.11.4
+- Accessories: 1.1.0-beta.53 → 1.1.0-beta.54
+- Accessories Compatibility Layer: 0.1.12 → 0.1.13
+- AdvancedCoreInfo: 1.4.0 → 1.5.0
+- AdvancedLootInfo: 2.4.0 → 2.5.0
+- Almanac: 1.5.2 → 1.26.10.3
+- AmbientSounds: 6.3.10 → 6.3.11
+- Amendments: 2.1.11 → 2.2.0
+- AsyncParticles: 21.1.4.7 → 21.1.4.10
+- BCLib: 21.0.27 → 21.0.28
+- Better End: 21.0.37 → 21.0.38
+- Better Mods Button: 21.1.0 → 21.1.1
+- Better Nether: 21.0.28 → 21.0.29
+- Cinematic Respawn: 1.4.0 → 1.4.1
+- Climbable Ropes for Create Aeronautics: 2.1.4 → 2.2.0
+- Collective: 8.54 → 8.62
+- Continuity: NeoForged: 3.0.0 → 3.0.9
+- Create Encased: 1.9.0-ht3 → 1.10.0
+- Create: Compatible Storage: 2.13.0 → 2.14.0
+- Enhanced Boss Bars: 1.1.1 → 1.1.2
+- Envelope: 0.7.5 → 0.8.0
+- Fallingleaves: 2.5.1 → 2.6.0
+- Forgified Fabric API: 0.116.15+2.3.5 → 0.116.15+2.3.6
+- Friends & Foes: 5.0.2 → 5.0.3
+- Icy's Better Horses: 2.1.3 → 2.1.4
+- Immersive Overlays: 1.8.5 → 1.8.6
+- Let's Do Bakery: 2.1.10 → 2.1.11
+- Let's Do Meadow: 1.4.9 → 1.4.10
+- LetMeDespawn: 1.5.0 → 1.26.10.2
+- Lightspeed: 2.0.5 → 2.0.5+hotfix
+- Nature's Spirit: 2.2.6 → 2.3.1
+- oωo: 0.12.15.5-beta.1 → 0.12.15.6-beta.1
+- Petrolpark's Library: 1.5.10 → 1.5.12
+- Pipe Organs: 0.8.2 → 0.9.2.1
+- Platform: 1.3.3 → 1.4
+- Polytone: 5.1.2 → 5.2.0
+- Punchy: 2.8f → 2.8g
+- Puzzles Lib: 21.1.64 → 21.1.65
+- Separate Sable Render Distance: 1.8.6 → 1.8.7
+- Sophisticated Backpacks: 3.26.12 → 3.26.14
+- Sophisticated Core: 1.5.13 → 1.5.17
+- Sophisticated Storage: 1.6.7 → 1.6.8
+- Sound Physics Remastered: 1.5.1 → 1.5.2
+- Starter Kit: 8.3 → 9.0
+- Supplementaries: 4.0.1 → 4.0.2
+- The Lead Age: 1.1.2 → 1.2.0
+- Vanilla Backport Compat: 2.2 → 2.3
+- VanillaBackport: 1.1.7.10 → 1.2
+- WaveyCapes: 1.11.2 → 1.11.3
+- WorldWeaver: 21.0.27 → 21.0.29
+
+Fair winds and soft landings. See you in the skies!
+Tim

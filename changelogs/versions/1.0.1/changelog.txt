@@ -1,12 +1,29 @@
-**Important:** Your `options.txt` will be overwritten by this update. Back it up first if you want to keep your video settings and keybinds.
+Your options.txt will be overwritten by this
+update. Back it up before updating if you want to
+keep your video settings, keybinds and other
+client options, and re-apply them afterwards.
 
-### New mods
-- [Peaceful Moon 2](https://modrinth.com/project/tasFtZEL)
-- [Critters and Companions](https://modrinth.com/project/Yd4wb5wZ)
-- [Constant Music](https://modrinth.com/project/tvuSEM6E)
-- [Reactive Music](https://modrinth.com/project/Bqnfeesx)
+ADDED
+- [Peaceful Moon
+  2](https://modrinth.com/project/tasFtZEL)
+- [Critters and
+  Companions](https://modrinth.com/project/Yd4wb5wZ)
+- [Constant
+  Music](https://modrinth.com/project/tvuSEM6E)
+- [Reactive
+  Music](https://modrinth.com/project/Bqnfeesx)
 - [Lighty](https://modrinth.com/mod/lighty)
 
-### Changes
-- Four quest mods were moved out of the pack into a separate download, because they prevented the launcher from applying updates: certain_questing_additions, ExtraQuests, FTBQuestsOptimizer, more_quest_types.
-- The configs of Advancement Disable Mod were adjusted, so Keep Some Inventory works again.
+CHANGED
+- Four quest-related mods were moved out of the
+  main pack into a separate download, because
+  keeping them inside prevented the launcher from
+  applying updates:
+- certain_questing_additions
+- ExtraQuests
+- FTBQuestsOptimizer
+- more_quest_types
+
+FIXED
+- The configs of Advancement Disable Mod were
+  adjusted, so Keep Some Inventory works again.

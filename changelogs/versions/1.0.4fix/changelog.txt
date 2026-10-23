@@ -1,15 +1,28 @@
-### Added
-- Added Create: Ballast, a ballast block that makes balancing Create Aeronautics contraptions easier.
-- Enabled Presence Footsteps and Presence Footsteps x Sable for more natural footstep sounds, including on Sable contraptions.
+ADDED
+- Added Create: Ballast, a ballast block that
+  makes balancing Create Aeronautics contraptions
+  easier.
+- Enabled Presence Footsteps and Presence
+  Footsteps x Sable for more natural footstep
+  sounds, including on Sable contraptions.
 
-### Removed
+REMOVED
 - Removed MoreJS.
 - Removed Carry On and its EMF Compat addon.
 - Removed EMI Loot and EMI Ores.
 
-### Fixed
-- Fixed a crash when opening a villager's trade screen on a server. It was caused by a client and server mismatch.
-- Fixed a joining error caused by mismatched mod versions.
+FIXED
+- Fixed a crash when opening a villager's trade
+  screen on a server. It was caused by a client
+  and server mismatch.
+- Fixed a joining error caused by mismatched mod
+  versions.
 
-### Changed
-- Updated 15 mods: Collective, EMF Compat: Core, EMF Compat: Immersive Melodies, EMF Compat: Supplementaries, EMF Compat: Take a Seat, Enhanced Boss Bars, Field Guide, Icy's Better Horses, Let's Do Farm & Charm, Let's Do Furniture, Let's Do Vinery, Lightspeed, SeeU, Sophisticated Core, Sophisticated Storage.
+CHANGED
+- Updated 15 mods: Collective, EMF Compat: Core,
+  EMF Compat: Immersive Melodies, EMF Compat:
+  Supplementaries, EMF Compat: Take a Seat,
+  Enhanced Boss Bars, Field Guide, Icy's Better
+  Horses, Let's Do Farm & Charm, Let's Do
+  Furniture, Let's Do Vinery, Lightspeed, SeeU,
+  Sophisticated Core, Sophisticated Storage.

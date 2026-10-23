@@ -1,5 +1,5 @@
 First official release of Farbound for Minecraft
-1.21.1 on NeoForge.
+  1.21.1 on NeoForge.
 
 HIGHLIGHTS
 - Vehicles of every kind: walkable airships with

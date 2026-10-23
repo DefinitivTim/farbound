@@ -1,7 +1,7 @@
 Your options.txt will be overwritten by this
-update. Back it up before updating if you want to
-keep your video settings, keybinds and other
-client options, and re-apply them afterwards.
+  update. Back it up before updating if you want
+  to keep your video settings, keybinds and other
+  client options, and re-apply them afterwards.
 
 ADDED
 - [Peaceful Moon

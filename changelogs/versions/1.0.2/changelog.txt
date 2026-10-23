@@ -1,7 +1,8 @@
 Your options.txt will be overwritten again by this
-update. Back it up first if you want to keep your
-video settings and other client options. This time
-the default keybinds in the file are correct.
+  update. Back it up first if you want to keep
+  your video settings and other client options.
+  This time the default keybinds in the file are
+  correct.
 
 ADDED
 -

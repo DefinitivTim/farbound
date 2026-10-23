@@ -1,6 +1,6 @@
 Your options.txt will be overwritten again by this
-update. Back it up first if you want to keep your
-video settings and other client options.
+  update. Back it up first if you want to keep
+  your video settings and other client options.
 
 CHANGED
 - The default options.txt was adjusted again.

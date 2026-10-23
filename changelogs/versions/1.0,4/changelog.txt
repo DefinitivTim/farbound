@@ -1,2 +1,0 @@
-### Updated mods
-AsyncLogger, Collective, Create Aeronautics: Automated Logistics, Create Lazy Tick, Entity Model Features, Entity Texture Features, Let's Do Wilder Nature, Nature's Delight, Nature's Spirit.

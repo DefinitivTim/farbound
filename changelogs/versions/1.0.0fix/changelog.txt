@@ -1,0 +1,1 @@
+- Fixed: Shader packs were only partially included in 1.0.0. The selection is now complete.

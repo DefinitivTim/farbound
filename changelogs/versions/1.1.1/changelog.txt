@@ -1,0 +1,102 @@
+Important: Several content mods were removed in this update. Their items and blocks will disappear from existing worlds. Please back up your worlds before updating. Your key bindings are also set to the new Farbound defaults once after updating.
+
+Ahoy, Farbounders! Radar sees further, the pack carries fewer extras, and your update notes now show up in game. Time to scan the skies and head out.
+
+SETTING SAIL
+
+- Create: Radar 5.0. A big step up: Sable ships show up as silhouettes on the radar, there is a new targeting computer for cannon auto-fire, chaff, and volume sliders for the radar sounds.
+- Update notes in game. Modpack Update Checker tells you when a new version is out and shows what changed.
+- One home for key bindings. Vehicles, horses, voice chat, pings and more now follow a single set of Farbound defaults.
+- Leaner pack. Sixteen mods are gone, among them Async Particles, Chunky, BBE and Create: Copper and Zinc.
+- Smoother servers. ServerCore is now switched on with a lower monster cap.
+- Fresh looks for mobs. New resource packs for zombies, illagers and blazes.
+- Icy's Better Horses 2.1.7. Horses can plough, take a "wander" dismount command and show ability banners.
+
+NEW ARRIVALS
+
+- Just Enough Items with JEI Optimizer and IrisSearch
+- Modpack Update Checker, Raise Sound Limit Simplified, Cubes Without Borders, Nowheel and Reflex AntiLag
+- Battle Music, Animated Hearts, Corn Expansion, Create Furnace Lava Adapter and Simply Create Model
+- Optimized Block Entities is back
+- New resource packs: Bray's Zombie Overhaul 1.5, Drodi's Blazes 1.4.1, Drodi's Illagers 5.3.2 and Fresh Weapons and Tools Compat
+
+UNDER THE HOOD
+
+- Enhanced Celestials 2 now runs on its Core module instead of Default Lunar Events.
+- Reworked the REMI stack groups, about 100 files fewer than before.
+- Five quests that belonged to removed mods are gone, six chapters were adjusted and Corner Cafe is now Cafe Corner.
+- Update notes now come from Modpack Update Checker instead of the FancyMenu screen.
+
+FAREWELLS
+
+- Async Particles, BBE, Chunky, Dynamic Sound Culling, Particle Interactions, Chunk Activity Tracker, Does It Tick and SSRD
+- Create: Copper and Zinc (its Asurine and Veridium recipes stay), Molten Metals, Pipe Organs, Visual Workbench, Peaceful Moon 2, In Control and Supplemental Patches
+- Sable Photomancy
+
+CONFIG CHANGES
+
+Server
+- ServerCore is now active: villager lobotomizing and dynamic performance checks are on, the monster cap is 50 (was 70), and Friends & Foes Glares and Rascals have their own caps. This also clears the config warning about Glares.
+
+Client defaults
+- Sodium Extra: cloud height override is on at 319, system and tutorial toasts are off.
+- VanillaBackport: falling leaves and the sheep wool undercoat are off.
+- Soft Imprints: imprint model contact is off.
+- Punchy: new camera animations option, on by default.
+- Distant Horizons: the config file was dropped in this version and returns in 1.1.1fix.
+
+New options from updated mods
+- Create Radar: targeting computer, chaff, Sable silhouette and radar sound settings.
+- Amendments: pets follow teleports, bubble columns pass through grates.
+- Icy's Better Horses: ploughing, dismount command, radial style and ability banners.
+- Foundation: attribute icons. Sophisticated Inventory Interactions: sort button offset for the decoration table.
+- Collective: the mob drop loop setting is gone.
+
+Resource packs
+- Added: Bray's Zombie Overhaul 1.5, Drodi's Blazes, Drodi's Illagers 5.3.2, Fresh Weapons and Tools Compat.
+- Removed: Fresh Animations with its extensions and compat packs, Beautiful Enchanted Books, the Create Simple Storage packs, Vocal Villagers and the Fresh Flower Pots packs.
+
+MOD SHELF
+
+37 mods were updated.
+
+- Amendments: 2.2.0 → 2.2.4
+- Better End: 21.0.38 → 21.0.39
+- Better Nether: 21.0.29 → 21.0.30
+- C2ME: 0.4.0-alpha.0.123 → 0.4.0-alpha.0.124
+- Cinematic Respawn: 1.4.1 → 1.4.3
+- Collective: 8.62 → 8.68
+- Create Encased: 1.10.0 → 1.10.0-fix1
+- Create Flight Control: 0.7.7 → 0.8.3
+- Create Lazy Tick: 2.7.31-6.0.10 → 2.7.33-6.0.10
+- Create Radar: 0.4.9.4 → 5.0.3
+- Enhanced Celestials 2: Default Lunar Events 2.0.1.3 → Core 2.0.3.3
+- Envelope: 0.8.0 → 0.8.1
+- ExtraLib: 3.2.2 → 3.3.1
+- Friends & Foes: 5.0.3 → 5.0.4
+- Fzzy Config: 0.7.7 → 0.7.7+fix1
+- Hexalia: 1.3.8.1 → 1.3.8.2
+- Icy's Better Horses: 2.1.4 → 2.1.7
+- LDLib2: 2.2.42 → 2.2.44
+- ModernFix: 5.27.26 → 5.27.27
+- Modonomicon: 1.120.7 → 1.121.0
+- Nature's Spirit: 2.3.1 → 2.3.2
+- Platform: 1.4 → 1.4.2
+- Player Animation Library: 1.1.6 → 2.0.4
+- Polytone: 5.2.0 → 5.3.4
+- Punchy: 2.8g → 3.0
+- Puzzles Lib: 21.1.65 → 21.1.66
+- Random Optimization: 1.7.5 → 1.7.6
+- REMI: 4.7.12 → 4.8.1
+- Sodium Extra: 0.9.4 → 0.9.5
+- Sophisticated Backpacks: 3.26.14 → 3.26.17
+- Sophisticated Core: 1.5.17 → 1.5.19
+- Sophisticated Inventory Interactions: 0.1.14 → 0.1.15
+- Sophisticated Storage: 1.6.8 → 1.6.10
+- SuperMartijn642's Core Lib: 1.1.25 → 1.1.26
+- The Lead Age: 1.2.0 → 1.2.1
+- VanillaBackport: 1.2 → 1.2.2
+- WorldWeaver: 21.0.29 → 21.0.30
+
+Fair winds and soft landings. See you in the skies!
+Tim

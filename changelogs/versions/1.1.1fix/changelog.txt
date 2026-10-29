@@ -1,0 +1,11 @@
+A quick patch to get your key bindings and Distant Horizons settings in order.
+
+FIXED
+
+- Old key binding scripts from earlier versions could fight with the new defaults. They are cleared now, and the Farbound key bindings apply once more after this update.
+- The Distant Horizons config was missing from 1.1.1. It is back.
+
+CONFIG CHANGES
+
+- Distant Horizons: generator plan is Surface Then Chunks (was disabled) and the low memory warning on startup is off.
+- Key bindings: the one-time apply marker was raised so everyone gets the latest defaults.

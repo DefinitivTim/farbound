@@ -1,0 +1,15 @@
+Another small step to keep things steady.
+
+FIXED
+
+- Rolled back Player Animation Library to 1.1.6.
+- Removed an obsolete glider script left over from older installs. Glider slot tags are now handled in one place.
+
+CONFIG CHANGES
+
+- No config changes in this version.
+
+MOD SHELF
+
+Downgraded
+- Player Animation Library: 2.0.4 → 1.1.6

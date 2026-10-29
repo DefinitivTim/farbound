@@ -151,6 +151,16 @@
           "modrinth": "https://modrinth.com/modpack/farbound"
         }
       }
+    },
+    {
+      "id": "1.1.1fix3",
+      "releasedAt": 1793277358000,
+      "updateType": "minor",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/farbound"
+        }
+      }
     }
   ]
 }

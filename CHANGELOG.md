@@ -3,6 +3,18 @@
 All notable changes to Farbound are documented here. Newest version first.
 Always back up your worlds before updating.
 
+## 1.1.1fix3 (2026-10-29)
+
+*A small patch for a lighter first start.*
+
+### Under the Hood
+- Shaders no longer start switched on for new installs. You can still turn on Complementary Reimagined with Euphoria Patches in the video settings.
+- No mod changes in this version.
+
+### Config Changes
+- Iris: the preset that enabled shaders by default is no longer shipped.
+- Distant Horizons: the shipped config is gone again, so it falls back to its own defaults.
+
 ## 1.1.1fix2 (2026-10-29)
 
 *Another small step to keep things steady.*

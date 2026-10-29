@@ -1,0 +1,11 @@
+A small patch for a lighter first start.
+
+UNDER THE HOOD
+
+- Shaders no longer start switched on for new installs. You can still turn on Complementary Reimagined with Euphoria Patches in the video settings.
+- No mod changes in this version.
+
+CONFIG CHANGES
+
+- Iris: the preset that enabled shaders by default is no longer shipped.
+- Distant Horizons: the shipped config is gone again, so it falls back to its own defaults.

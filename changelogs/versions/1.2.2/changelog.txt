@@ -1,0 +1,11 @@
+A small patch for Punchy and a tidier menu.
+
+FIXED
+
+- The Punchy and Punchy Moves settings are now shipped as pack files, so existing installs receive them too.
+
+CONFIG CHANGES
+
+- Punchy: new key binding "Map Look" on G, plus the shipped Punchy and Punchy Moves settings.
+- FancyMenu: the customization overlay is hidden.
+- No mod changes in this version.

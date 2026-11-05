@@ -1,0 +1,11 @@
+A quick patch to bring the scripts back on board.
+
+FIXED
+
+- The KubeJS scripts were missing from 1.1.1fix3. They are included again, so recipes, key bindings and the other Farbound scripts work as intended.
+- Shaders start switched on again for new installs, as they did before 1.1.1fix3.
+
+CONFIG CHANGES
+
+- KubeJS scripts are shipped with the pack again.
+- Iris: the preset with Complementary Reimagined and Euphoria Patches is shipped again.

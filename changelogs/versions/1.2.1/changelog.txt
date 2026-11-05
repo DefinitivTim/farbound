@@ -1,0 +1,15 @@
+A quick patch to get the scripts back on board, again.
+
+FIXED
+
+- The KubeJS scripts were missing from 1.2.0, so custom recipes and key bindings did not load. They are back.
+
+UNDER THE HOOD
+
+- Added recipes for recycling copycats and compacting honeycomb.
+- Updated the glider upgrade recipes.
+- No mod changes in this version.
+
+CONFIG CHANGES
+
+- KubeJS scripts are shipped with the pack again.

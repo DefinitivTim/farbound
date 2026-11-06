@@ -1,0 +1,19 @@
+A tidy-up patch after two export slips. Sorry for the mix-up.
+
+FIXED
+
+- The KubeJS scripts were missing from 1.2.4. They are back, so recipes, key bindings and the other Farbound scripts work again.
+
+UNDER THE HOOD
+
+- More Quest Types, added in 1.2.3, is gone again.
+- The Punchy Moves key bindings from 1.2.3 stay: camera settings on Arrow Up, emote wheel on Arrow Down, own camera on Arrow Right and orbit camera on Arrow Left.
+
+FAREWELLS
+
+- More Quest Types
+
+CONFIG CHANGES
+
+- KubeJS scripts are shipped with the pack again.
+- Iris, Punchy and Punchy Moves stay as defaults, as in 1.2.4.

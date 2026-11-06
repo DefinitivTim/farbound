@@ -1,0 +1,10 @@
+A quiet patch that gives your own settings back to you.
+
+UNDER THE HOOD
+
+- The Iris, Punchy and Punchy Moves settings are shipped as defaults again. They are only copied on a fresh install and no longer overwrite what you set yourself.
+- No mod changes in this version.
+
+CONFIG CHANGES
+
+- Iris, Punchy and Punchy Moves: moved back from pack files to defaults.

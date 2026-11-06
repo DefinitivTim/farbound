@@ -3,6 +3,55 @@
 All notable changes to Farbound are documented here. Newest version first.
 Always back up your worlds before updating.
 
+## 1.2.5 (2026-11-06)
+
+*A tidy-up patch after two export slips. Sorry for the mix-up.*
+
+### Fixed
+- The KubeJS scripts were missing from 1.2.4. They are back, so recipes, key bindings and the other Farbound scripts work again.
+
+### Under the Hood
+- More Quest Types, added in 1.2.3, is gone again.
+- The Punchy Moves key bindings from 1.2.3 stay: camera settings on Arrow Up, emote wheel on Arrow Down, own camera on Arrow Right and orbit camera on Arrow Left.
+
+### Farewells
+- More Quest Types
+
+### Config Changes
+- KubeJS scripts are shipped with the pack again.
+- Iris, Punchy and Punchy Moves stay as defaults, as in 1.2.4.
+
+## 1.2.4 (2026-11-06)
+
+*A quiet patch that gives your own settings back to you.*
+
+### Under the Hood
+- The Iris, Punchy and Punchy Moves settings are shipped as defaults again. They are only copied on a fresh install and no longer overwrite what you set yourself.
+- No mod changes in this version.
+
+### Config Changes
+- Iris, Punchy and Punchy Moves: moved back from pack files to defaults.
+
+## 1.2.3 (2026-11-06)
+
+*A small patch with camera keys and a few updates.*
+
+### New Arrivals
+- More Quest Types
+
+### Under the Hood
+- Punchy Moves has default key bindings now: camera settings on Arrow Up, emote wheel on Arrow Down, own camera on Arrow Right and orbit camera on Arrow Left. Its other keys stay unbound. Your key bindings are set to the Farbound defaults once more after updating.
+
+### Config Changes
+- Iris: the preset with Complementary Reimagined and Euphoria Patches is shipped as a pack file. It can reset your shader choice once.
+- Key bindings: the one-time apply marker was raised so everyone gets the new Punchy Moves keys.
+
+### Mod Shelf
+2 mods were updated.
+
+- **Punchy Moves:** `1.0.6-hotfix` → `1.0.7`
+- **Reflex AntiLag:** `1.1.5` → `1.1.6`
+
 ## 1.2.2 (2026-11-05)
 
 *A small patch for Punchy and a tidier menu.*

@@ -1,0 +1,21 @@
+A small patch with camera keys and a few updates.
+
+NEW ARRIVALS
+
+- More Quest Types
+
+UNDER THE HOOD
+
+- Punchy Moves has default key bindings now: camera settings on Arrow Up, emote wheel on Arrow Down, own camera on Arrow Right and orbit camera on Arrow Left. Its other keys stay unbound. Your key bindings are set to the Farbound defaults once more after updating.
+
+CONFIG CHANGES
+
+- Iris: the preset with Complementary Reimagined and Euphoria Patches is shipped as a pack file. It can reset your shader choice once.
+- Key bindings: the one-time apply marker was raised so everyone gets the new Punchy Moves keys.
+
+MOD SHELF
+
+2 mods were updated.
+
+- Punchy Moves: 1.0.6-hotfix → 1.0.7
+- Reflex AntiLag: 1.1.5 → 1.1.6

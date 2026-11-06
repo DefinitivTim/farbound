@@ -2,6 +2,55 @@
 
 Alle wichtigen Änderungen an Farbound, neueste Version zuerst. Diese deutsche Fassung beginnt bei 1.1.1. Ältere Versionen findest du im englischen [CHANGELOG](CHANGELOG.md). Sichere vor jedem Update deine Welten.
 
+## 1.2.5 (2026-11-06)
+
+*Ein Aufräum-Patch nach zwei Export-Pannen. Sorry für das Durcheinander.*
+
+### Behoben
+- In 1.2.4 fehlten die KubeJS-Scripts. Sie sind zurück, sodass Rezepte, Tastenbelegungen und die übrigen Farbound-Scripts wieder funktionieren.
+
+### Unter der Haube
+- More Quest Types, in 1.2.3 hinzugefügt, ist wieder entfernt.
+- Die Punchy-Moves-Tasten aus 1.2.3 bleiben: Kameraeinstellungen auf Pfeil hoch, Emote-Rad auf Pfeil runter, eigene Kamera auf Pfeil rechts und Orbit-Kamera auf Pfeil links.
+
+### Abschied
+- More Quest Types
+
+### Config-Änderungen
+- KubeJS-Scripts werden wieder mit dem Pack ausgeliefert.
+- Iris, Punchy und Punchy Moves bleiben Standardwerte, wie in 1.2.4.
+
+## 1.2.4 (2026-11-06)
+
+*Ein ruhiger Patch, der dir deine eigenen Einstellungen zurückgibt.*
+
+### Unter der Haube
+- Die Einstellungen von Iris, Punchy und Punchy Moves werden wieder als Standardwerte mitgeliefert. Sie werden nur bei einer frischen Installation kopiert und überschreiben nicht mehr, was du selbst eingestellt hast.
+- Keine Mod-Änderungen in dieser Version.
+
+### Config-Änderungen
+- Iris, Punchy und Punchy Moves: von Pack-Dateien zurück zu Standardwerten verschoben.
+
+## 1.2.3 (2026-11-06)
+
+*Ein kleiner Patch mit Kamera-Tasten und ein paar Updates.*
+
+### Neu an Bord
+- More Quest Types
+
+### Unter der Haube
+- Punchy Moves hat jetzt Standard-Tastenbelegungen: Kameraeinstellungen auf Pfeil hoch, Emote-Rad auf Pfeil runter, eigene Kamera auf Pfeil rechts und Orbit-Kamera auf Pfeil links. Die übrigen Tasten bleiben unbelegt. Deine Tastenbelegung wird nach dem Update noch einmal auf die Farbound-Standards gesetzt.
+
+### Config-Änderungen
+- Iris: Das Preset mit Complementary Reimagined und Euphoria Patches wird als Pack-Datei mitgeliefert. Es kann deine Shader-Auswahl einmalig zurücksetzen.
+- Tastenbelegung: Die Marke für die einmalige Anwendung wurde erhöht, damit alle die neuen Punchy-Moves-Tasten bekommen.
+
+### Mod-Regal
+2 Mods wurden aktualisiert.
+
+- **Punchy Moves:** `1.0.6-hotfix` → `1.0.7`
+- **Reflex AntiLag:** `1.1.5` → `1.1.6`
+
 ## 1.2.2 (2026-11-05)
 
 *Ein kleiner Patch für Punchy und ein aufgeräumteres Menü.*

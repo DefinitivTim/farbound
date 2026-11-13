@@ -1,0 +1,104 @@
+Important: Pipes n Physics was removed in this update, along with several other mods. Pipes built with it and the blocks and items of the other removed mods will disappear from existing worlds. Please back up your worlds before updating.
+
+Ahoy, Farbounders! Every kind of wood and stone now fits together, the recipe viewer got a new engine and a few old companions waved goodbye. Pack your bags and bring home something to build with.
+
+SETTING SAIL
+
+- Every Compat, Stone Zone and Gems Realm. Wood, stone and gem blocks from your mods now come in matching variants, so more of what you find fits into your builds.
+- Pipes n Physics is gone. The mod left the pack. See the note above before you update.
+- A new recipe viewer engine. Just Enough Items and JEI Optimizer are out. TooManyRecipeViewers brings JEI plugin support to EMI.
+- Smarter key bindings. The key binding script was rebuilt, one file per mod, so a change only touches the mods it concerns instead of resetting everything. Create's rotate menu is now on R.
+- Fishing and homemaking. Better Fishing, Enchanted Fishing Line, Chopper's Delight, Sooty Chimneys and Music Disc Maker join the pack.
+- Safer backpacks. Other players can no longer open your backpack by default.
+- Create Aeronautics updates. Physics Gantry 1.2.1 and Toolgun 0.3.9, plus Punchy 3.2 and Punchy Moves 1.0.9.
+
+NEW ARRIVALS
+
+- Every Compat, Stone Zone and Gems Realm
+- Better Fishing, Enchanted Fishing Line, Chopper's Delight, Sooty Chimneys and Music Disc Maker
+- TooManyRecipeViewers and More Quest Types
+- New resource pack: Just 3D Potions 1.2
+
+UNDER THE HOOD
+
+- The key binding script now has one file per mod and its own version number per mod. Only mods whose version was raised are re-applied to players, and your own changes are left alone otherwise.
+- Duplicate items were cleaned up further: steel, bronze and platinum parts, copper nuggets, coal dust and some copycat blocks now have a single winner.
+- Brick bridges from Stone Zone for Better End, Better Nether, Biomes We've Gone and Vanilla Backport are blocked because they render without textures.
+- Petrolpark, Sophisticated Core and Sophisticated Backpacks Create Integration no longer require JEI.
+
+FAREWELLS
+
+- Pipes n Physics, Ballast and The Lead Age
+- Just Enough Items, JEI Optimizer, AeroPropBlur, Fancy World Animations, More Culling and OptiCore
+
+CONFIG CHANGES
+
+Server
+- Sophisticated Backpacks: opening other players' backpacks is off.
+- Sophisticated Storage: new Wood Tank settings with a capacity of 8000 and one upgrade slot.
+- Toolgun: new survival magnetic gun force settings and optional block limits for capturing containers.
+- FTB Teams: new party size setting, set to 0.
+- Item Obliterator: more duplicate metals, nuggets and parts are blocked, as listed above.
+
+Client defaults
+- Bad Optimizations: particle manager optimization and entity renderer caching are off.
+- Flerovium: entity back face culling and terrain particle reduction are off.
+- Async Particles: new sky light simplification and particle storm options.
+- Create: Extra Casing: the startup message is off.
+- Create keybind: rotate menu on R.
+
+Resource packs
+- Added: Just 3D Potions 1.2.
+
+MOD SHELF
+
+45 mods were updated.
+
+- Apple Wood Rebarked: 1.2.2 → 1.2.3
+- BCLib: 21.0.28 → 21.0.29
+- Battle Music: 1.2.2 → 1.2.3
+- Climbable Ropes: 2.2.0 → 2.2.2
+- Collective: 8.81 → 8.86
+- Continuity: 3.0.9 → 3.0.10
+- Copycats: 3.0.9 → 3.0.11
+- Create Aeronautics Physics Gantry: 1.1.1 → 1.2.1
+- Create Aeronautics: Toolgun: 0.3.8 → 0.3.9
+- Create Encased: 1.10.0-fix1 → 1.10.1
+- Create Nuclear: 2.0.0 → 2.0.1
+- CreativeCore: 2.13.52 → 2.13.54
+- EMF Compat: Core: 2.3.2 → 2.4.0
+- EMF Compat: Create: 2.1.0 → 2.1.1
+- EMF Compat: Exposure: 1.0.0 → 1.0.1
+- EMF Compat: Gliders: 2.0.0 → 2.0.1
+- EMF Compat: Supplementaries: 1.1.1 → 1.1.2
+- EMF Compat: WATUT: 1.0.0 → 1.1.0
+- Enhanced Boss Bars: 1.1.2 → 1.1.3
+- Enhanced Celestials 2: Core: 2.0.3.3 → 2.0.3.4
+- Enhanced Celestials 2: Default Lunar Events: 2.0.1.3 → 2.0.1.4
+- Enhanced Celestials 2: Shaders: 2.0.0.3 → 2.0.0.4
+- Entity Culling: 1.11.3 → 1.12.0
+- Envelope: 0.8.1 → 0.8.2
+- Exposure: 1.9.19 → 1.9.21
+- FancyMenu: 3.9.14 → 3.10.0
+- Immersive Overlays: 1.8.6 → 1.8.7
+- LDLib2: 2.2.45 → 2.2.46.a
+- Mezz Config: 0.6.9 → 0.7.1
+- Moonlight Lib: 3.8.1 → 3.8.3
+- Not Enough Recipe Book: 0.4.3 → 0.6.2
+- Oh The Trees You'll Grow: 5.3.5 → 5.3.6
+- OctoLib: 0.6.2 → 0.6.3.2
+- Offgrid: 1.0.4 → 1.0.6
+- Polytone: 5.3.4 → 5.3.8
+- Punchy: 3.1b → 3.2b
+- Punchy Moves: 1.0.7 → 1.0.9
+- REMI: 4.8.1 → 4.8.2
+- Random Optimization: 1.7.6 → 1.7.7
+- Right Click Harvest: 4.6.1 → 4.7.0
+- SeeU: 0.9.5 → 0.9.6
+- Sophisticated Backpacks: 3.26.20 → 3.26.21
+- Sophisticated Core: 1.5.28 → 1.5.35
+- Sophisticated Storage: 1.6.16 → 1.6.18
+- WorldWeaver: 21.0.30 → 21.0.31
+
+Fair winds and soft landings. See you in the skies!
+Tim

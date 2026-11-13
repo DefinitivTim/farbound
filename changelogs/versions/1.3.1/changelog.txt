@@ -1,0 +1,13 @@
+A tiny patch to take one mod back off the shelf.
+
+UNDER THE HOOD
+
+- More Quest Types, added in 1.3.0, is gone again.
+
+FAREWELLS
+
+- More Quest Types
+
+CONFIG CHANGES
+
+- No config changes in this version.

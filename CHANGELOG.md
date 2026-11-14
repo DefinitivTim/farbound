@@ -3,15 +3,111 @@
 All notable changes to Farbound are documented here. Newest version first.
 Always back up your worlds before updating.
 
-## 1.3.1 (2026-11-13)
+## 1.3.5 (2026-11-14)
 
-*A tiny patch to take one mod back off the shelf.*
+> [!IMPORTANT]
+> Every Compat is removed in this update, together with Stone Zone, Gems Realm, Better Fishing, Enchanted Fishing Line and Polytone. Blocks and items added by these mods will disappear from existing worlds. Please back up your worlds before updating.
+
+*A patch that takes Every Compat out again after it caused serious problems, and brings a few helpful newcomers.*
+
+### Fixed
+- Several Cutting Board recipes were fighting over the same ingredient (potato, beef, bread, chorus fruit, tropical fish, mushrooms and paprika). Create Food's versions now need an axe, More Delight's diced potatoes need a shovel, and the knife stays with the other mods' recipes.
+
+### New Arrivals
+- Afterburner: rendering, lighting and memory optimizations
+- Async: entity multi-threading
+- Tooltips Improved: long tooltips wrap and scroll, with exact durability and equipment comparison
+- 0Pack2Reload: skips resource pack reloads when nothing really changed
+- Fancy World Animations 1.3.7 is back
 
 ### Under the Hood
-- More Quest Types, added in 1.3.0, is gone again.
+- Every Compat caused serious problems, so it is gone again, along with its sibling mods Stone Zone and Gems Realm.
+- The REMI stack groups and the configs of mods that are no longer in the pack were cleaned out.
+- The download is much smaller: about 49 MB instead of 121 MB, because leftover caches and data are no longer included.
+- Async is still an alpha release. If mobs behave oddly, please let us know.
 
 ### Farewells
-- More Quest Types
+- Every Compat, Stone Zone and Gems Realm
+- Better Fishing and Enchanted Fishing Line
+- Polytone
+- GPUTape
+
+### Config Changes
+**Client defaults**
+- Iris: new default config, shaders are on with Complementary Reimagined + Euphoria Patches and the shadow distance is 32.
+- Complementary Reimagined and Supplemental Patches: the custom settings from 1.3.4 (TAA and vignette off, cloud altitude 348, rain tweaks) are no longer shipped.
+- NeoForge: the early loading window control is off.
+- Resource pack load order: Just 3D Potions 1.2 is included, and the Drigo 3D Lantern's x Punchy entry matches its file name again.
+
+**New configs**
+- Afterburner: all optimizations are on.
+- Tooltips Improved: tooltips wrap at the cursor, durability shows when an item is damaged and equipment comparison is always on.
+
+**New options from updated mods**
+- Subtle Effects: bubbles on decorated pots are on, shrieker rotation can be switched off.
+- Supplementaries: new options for 2D flags, the redstone lantern and the new enchantments Whimsy and Carousel, plus a mud ball effect for Environmental.
+
+### Mod Shelf
+3 mods were updated.
+
+- **REMI:** `4.8.2` → `4.8.4`
+- **Subtle Effects:** `1.15.1` → `1.15.2`
+- **Supplementaries:** `4.0.2` → `4.1.1`
+
+## 1.3.4 (2026-11-13)
+
+*A small patch for the version number and a few shader defaults.*
+
+### Fixed
+- The update check reported 1.3.1 in 1.3.2 and 1.3.3. It shows the correct version again.
+- Extra Quests slipped into 1.3.3 by mistake. It is removed again.
+
+### Config Changes
+**Client defaults**
+- Create JEI Compat: new setting, the page arrows on multi-page assembly recipes are off.
+- Complementary Reimagined: TAA and vignette are off, cloud altitude is 348.
+- Supplemental Patches: no rain above clouds, rain atmosphere is on.
+
+## 1.3.3 (2026-11-13)
+
+*A small patch with a few updates and one familiar face.*
+
+### New Arrivals
+- Extra Quests 2.0.1
+
+### Config Changes
+- No config changes in this version.
+
+### Mod Shelf
+3 mods were updated.
+
+- **Continuity:** `3.0.10` → `3.0.11`
+- **Entity Culling:** `1.12.0` → `1.12.1`
+- **Just Enough Items:** `19.64.0.455` → `19.70.0.469`
+
+## 1.3.2 (2026-11-13)
+
+*A quick patch that brings the recipe viewer back.*
+
+### New Arrivals
+- Create JEI Compat
+
+### Under the Hood
+- Just Enough Items 19.64.0.455 and JEI Optimizer 1.2.2 are back. EMI stays.
+- TooManyRecipeViewers, added in 1.3.0, is gone again.
+
+### Farewells
+- TooManyRecipeViewers
+
+### Config Changes
+- No config changes in this version.
+
+## 1.3.1 (2026-11-13)
+
+*A tiny patch to tidy up an export slip.*
+
+### Fixed
+- More Quest Types slipped into 1.3.0 by mistake. It is removed again.
 
 ### Config Changes
 - No config changes in this version.
@@ -19,7 +115,7 @@ Always back up your worlds before updating.
 ## 1.3.0: Grain & Grit (2026-11-13)
 
 > [!IMPORTANT]
-> Pipes n Physics was removed in this update, along with several other mods. Pipes built with it and the blocks and items of the other removed mods will disappear from existing worlds. Please back up your worlds before updating.
+> Pipes n Physics was removed in this update, along with several other mods. Pipes built with it and the blocks and items of the other removed mods will disappear from existing worlds. Please back up your worlds before updating. FTB Quests, FTB Teams, FTB Library, FTB XMod Compat, Certain Questing Additions and Extra Quests must be updated to their latest versions: FTB Quests 2101.1.38, FTB Teams 2101.1.12, FTB Library 2101.1.39, FTB XMod Compat 21.1.14 and Certain Questing Additions 1.2.0.5. If you manage your own mods or run a server, update all of them together.
 
 *Ahoy, Farbounders! Every kind of wood and stone now fits together, the recipe viewer got a new engine and a few old companions waved goodbye. Pack your bags and bring home something to build with.*
 
@@ -35,7 +131,7 @@ Always back up your worlds before updating.
 ### New Arrivals
 - Every Compat, Stone Zone and Gems Realm
 - Better Fishing, Enchanted Fishing Line, Chopper's Delight, Sooty Chimneys and Music Disc Maker
-- TooManyRecipeViewers and More Quest Types
+- TooManyRecipeViewers
 - New resource pack: Just 3D Potions 1.2
 
 ### Under the Hood
@@ -43,6 +139,7 @@ Always back up your worlds before updating.
 - Duplicate items were cleaned up further: steel, bronze and platinum parts, copper nuggets, coal dust and some copycat blocks now have a single winner.
 - Brick bridges from Stone Zone for Better End, Better Nether, Biomes We've Gone and Vanilla Backport are blocked because they render without textures.
 - Petrolpark, Sophisticated Core and Sophisticated Backpacks Create Integration no longer require JEI.
+- The quest mods need to be on their latest versions: FTB Quests 2101.1.38, FTB Teams 2101.1.12, FTB Library 2101.1.39, FTB XMod Compat 21.1.14, Certain Questing Additions 1.2.0.5 and Extra Quests.
 
 ### Farewells
 - Pipes n Physics, Ballast and The Lead Age

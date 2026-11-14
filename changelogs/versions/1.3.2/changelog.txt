@@ -1,0 +1,18 @@
+A quick patch that brings the recipe viewer back.
+
+NEW ARRIVALS
+
+- Create JEI Compat
+
+UNDER THE HOOD
+
+- Just Enough Items 19.64.0.455 and JEI Optimizer 1.2.2 are back. EMI stays.
+- TooManyRecipeViewers, added in 1.3.0, is gone again.
+
+FAREWELLS
+
+- TooManyRecipeViewers
+
+CONFIG CHANGES
+
+- No config changes in this version.

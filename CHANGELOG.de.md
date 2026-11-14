@@ -2,6 +2,215 @@
 
 Alle wichtigen Änderungen an Farbound, neueste Version zuerst. Diese deutsche Fassung beginnt bei 1.1.1. Ältere Versionen findest du im englischen [CHANGELOG](CHANGELOG.md). Sichere vor jedem Update deine Welten.
 
+## 1.3.5 (2026-11-14)
+
+*Ein Patch, der Every Compat nach schweren Problemen wieder entfernt und ein paar hilfreiche Neuzugänge mitbringt.*
+
+### Behoben
+- Mehrere Schneidebrett-Rezepte stritten sich um dieselbe Zutat (Kartoffel, Rind, Brot, Chorusfrucht, Tropenfisch, Pilze und Paprika). Die Versionen von Create Food brauchen jetzt eine Axt, die gewürfelten Kartoffeln von More Delight eine Schaufel, und das Messer bleibt bei den Rezepten der anderen Mods.
+
+### Neu an Bord
+- Afterburner: Optimierungen für Rendering, Beleuchtung und Speicher
+- Async: Multi-Threading für Entitäten
+- Tooltips Improved: lange Tooltips werden umgebrochen und scrollbar, mit exakter Haltbarkeit und Ausrüstungsvergleich
+- 0Pack2Reload: überspringt Ressourcenpaket-Reloads, wenn sich nichts geändert hat
+- Fancy World Animations 1.3.7 ist zurück
+
+### Unter der Haube
+- Every Compat hat schwere Probleme verursacht und ist deshalb wieder raus, samt den Schwestermods Stone Zone und Gems Realm.
+- Die REMI-Stack-Groups und die Configs von Mods, die nicht mehr im Pack sind, wurden aufgeräumt.
+- Der Download ist deutlich kleiner: etwa 49 MB statt 121 MB, weil übrig gebliebene Caches und Daten nicht mehr dabei sind.
+- Async ist noch eine Alpha-Version. Wenn sich Mobs seltsam verhalten, gib uns bitte Bescheid.
+
+### Abschied
+- Every Compat, Stone Zone und Gems Realm
+- Better Fishing und Enchanted Fishing Line
+- Polytone
+- GPUTape
+
+### Config-Änderungen
+**Client-Standards**
+- Iris: neue Standard-Config, Shader sind an mit Complementary Reimagined + Euphoria Patches, die Schattenweite beträgt 32.
+- Complementary Reimagined und Supplemental Patches: die eigenen Einstellungen aus 1.3.4 (TAA und Vignette aus, Wolkenhöhe 348, Regen-Anpassungen) werden nicht mehr mitgeliefert.
+- NeoForge: die Kontrolle über das frühe Ladefenster ist aus.
+- Ressourcenpaket-Reihenfolge: Just 3D Potions 1.2 ist enthalten, und der Eintrag Drigo 3D Lantern's x Punchy passt wieder zum Dateinamen.
+
+**Neue Configs**
+- Afterburner: alle Optimierungen sind an.
+- Tooltips Improved: Tooltips werden am Cursor umgebrochen, die Haltbarkeit erscheint bei beschädigten Gegenständen und der Ausrüstungsvergleich ist immer an.
+
+**Neue Optionen aus aktualisierten Mods**
+- Subtle Effects: Blasen an verzierten Töpfen sind an, die Shrieker-Rotation lässt sich ausschalten.
+- Supplementaries: neue Optionen für 2D-Flaggen, die Redstone-Laterne und die neuen Verzauberungen Whimsy und Carousel, dazu ein Schlammball-Effekt für Environmental.
+
+### Mod-Regal
+3 Mods wurden aktualisiert.
+
+- **REMI:** `4.8.2` → `4.8.4`
+- **Subtle Effects:** `1.15.1` → `1.15.2`
+- **Supplementaries:** `4.0.2` → `4.1.1`
+
+## 1.3.4 (2026-11-13)
+
+*Ein kleiner Patch für die Versionsnummer und ein paar Shader-Standards.*
+
+### Behoben
+- Die Update-Prüfung meldete in 1.3.2 und 1.3.3 die Version 1.3.1. Sie zeigt wieder die richtige Version.
+- Extra Quests hatte sich versehentlich in 1.3.3 eingeschlichen. Es ist wieder entfernt.
+
+### Config-Änderungen
+**Client-Standards**
+- Create JEI Compat: neue Einstellung, die Seitenpfeile bei mehrseitigen Montage-Rezepten sind aus.
+- Complementary Reimagined: TAA und Vignette sind aus, die Wolkenhöhe beträgt 348.
+- Supplemental Patches: kein Regen über den Wolken, Regenatmosphäre ist an.
+
+## 1.3.3 (2026-11-13)
+
+*Ein kleiner Patch mit ein paar Updates und einem bekannten Gesicht.*
+
+### Neu an Bord
+- Extra Quests 2.0.1
+
+### Config-Änderungen
+- Keine Config-Änderungen in dieser Version.
+
+### Mod-Regal
+3 Mods wurden aktualisiert.
+
+- **Continuity:** `3.0.10` → `3.0.11`
+- **Entity Culling:** `1.12.0` → `1.12.1`
+- **Just Enough Items:** `19.64.0.455` → `19.70.0.469`
+
+## 1.3.2 (2026-11-13)
+
+*Ein kurzer Patch, der den Rezeptbetrachter zurückbringt.*
+
+### Neu an Bord
+- Create JEI Compat
+
+### Unter der Haube
+- Just Enough Items 19.64.0.455 und JEI Optimizer 1.2.2 sind zurück. EMI bleibt.
+- TooManyRecipeViewers, in 1.3.0 hinzugefügt, ist wieder entfernt.
+
+### Abschied
+- TooManyRecipeViewers
+
+### Config-Änderungen
+- Keine Config-Änderungen in dieser Version.
+
+## 1.3.1 (2026-11-13)
+
+*Ein winziger Patch, der einen Export-Ausrutscher aufräumt.*
+
+### Behoben
+- More Quest Types hatte sich versehentlich in 1.3.0 eingeschlichen. Es ist wieder entfernt.
+
+### Config-Änderungen
+- Keine Config-Änderungen in dieser Version.
+
+## 1.3.0: Grain & Grit (2026-11-13)
+
+> [!IMPORTANT]
+> In diesem Update wurde Pipes n Physics entfernt, dazu mehrere weitere Mods. Damit gebaute Rohre und die Blöcke und Items der anderen entfernten Mods verschwinden aus bestehenden Welten. Bitte sichere deine Welten vor dem Update. FTB Quests, FTB Teams, FTB Library, FTB XMod Compat, Certain Questing Additions und Extra Quests müssen auf die neueste Version gebracht werden: FTB Quests 2101.1.38, FTB Teams 2101.1.12, FTB Library 2101.1.39, FTB XMod Compat 21.1.14 und Certain Questing Additions 1.2.0.5. Wenn du deine Mods selbst verwaltest oder einen Server betreibst, aktualisiere alle zusammen.
+
+*Ahoi, Farbounder! Jede Holz- und Steinart passt jetzt zusammen, der Rezeptbetrachter hat einen neuen Motor, und ein paar alte Begleiter haben sich verabschiedet. Pack deine Sachen und bring etwas zum Bauen mit nach Hause.*
+
+### Segel setzen
+- **Every Compat, Stone Zone und Gems Realm.** Holz-, Stein- und Edelsteinblöcke deiner Mods gibt es jetzt in passenden Varianten, sodass mehr von dem, was du findest, in deine Bauten passt.
+- **Pipes n Physics ist weg.** Die Mod hat das Pack verlassen. Lies den Hinweis oben, bevor du updatest.
+- **Neuer Rezeptbetrachter-Motor.** Just Enough Items und JEI Optimizer sind raus. TooManyRecipeViewers bringt JEI-Plugin-Unterstützung zu EMI.
+- **Klügere Tastenbelegung.** Das Tastenbelegungs-Script wurde neu gebaut, eine Datei pro Mod, sodass eine Änderung nur die betroffenen Mods anfasst und nicht mehr alles zurücksetzt. Das Create-Rotationsmenü liegt jetzt auf R.
+- **Angeln und Wohnen.** Better Fishing, Enchanted Fishing Line, Chopper's Delight, Sooty Chimneys und Music Disc Maker ziehen ins Pack ein.
+- **Sicherere Rucksäcke.** Andere Spieler können deinen Rucksack standardmäßig nicht mehr öffnen.
+- **Create-Aeronautics-Updates.** Physics Gantry 1.2.1 und Toolgun 0.3.9, dazu Punchy 3.2 und Punchy Moves 1.0.9.
+
+### Neu an Bord
+- Every Compat, Stone Zone und Gems Realm
+- Better Fishing, Enchanted Fishing Line, Chopper's Delight, Sooty Chimneys und Music Disc Maker
+- TooManyRecipeViewers
+- Neues Resource Pack: Just 3D Potions 1.2
+
+### Unter der Haube
+- Das Tastenbelegungs-Script hat jetzt eine Datei pro Mod und eine eigene Versionsnummer pro Mod. Nur Mods mit erhöhter Version werden bei Spielern neu gesetzt, deine eigenen Änderungen bleiben sonst unberührt.
+- Doppelte Items wurden weiter aufgeräumt: Stahl-, Bronze- und Platinteile, Kupfernuggets, Kohlestaub und einige Copycat-Blöcke haben jetzt einen einzigen Gewinner.
+- Ziegelbrücken von Stone Zone für Better End, Better Nether, Biomes We've Gone und Vanilla Backport sind gesperrt, weil sie ohne Texturen dargestellt werden.
+- Petrolpark, Sophisticated Core und Sophisticated Backpacks Create Integration benötigen JEI nicht mehr.
+- Die Quest-Mods müssen auf der neuesten Version sein: FTB Quests 2101.1.38, FTB Teams 2101.1.12, FTB Library 2101.1.39, FTB XMod Compat 21.1.14, Certain Questing Additions 1.2.0.5 und Extra Quests.
+
+### Abschied
+- Pipes n Physics, Ballast und The Lead Age
+- Just Enough Items, JEI Optimizer, AeroPropBlur, Fancy World Animations, More Culling und OptiCore
+
+### Config-Änderungen
+**Server**
+- Sophisticated Backpacks: Das Öffnen fremder Rucksäcke ist aus.
+- Sophisticated Storage: neue Wood-Tank-Einstellungen mit 8000 Kapazität und einem Upgrade-Slot.
+- Toolgun: neue Kraft-Einstellungen für die magnetische Survival-Variante und optionale Blocklimits beim Erfassen von Behältern.
+- FTB Teams: neue Einstellung für die Gruppengröße, auf 0 gesetzt.
+- Item Obliterator: weitere doppelte Metalle, Nuggets und Teile sind gesperrt, wie oben beschrieben.
+
+**Client-Standards**
+- Bad Optimizations: Partikelmanager-Optimierung und Entity-Renderer-Caching sind aus.
+- Flerovium: Entity-Rückseiten-Culling und Terrain-Partikelreduzierung sind aus.
+- Async Particles: neue Optionen für vereinfachtes Himmelslicht und Partikelsturm.
+- Create: Extra Casing: Die Startmeldung ist aus.
+- Create-Taste: Rotationsmenü auf R.
+
+**Resource Packs**
+- Hinzugefügt: Just 3D Potions 1.2.
+
+### Mod-Regal
+45 Mods wurden aktualisiert.
+
+- **Apple Wood Rebarked:** `1.2.2` → `1.2.3`
+- **BCLib:** `21.0.28` → `21.0.29`
+- **Battle Music:** `1.2.2` → `1.2.3`
+- **Climbable Ropes:** `2.2.0` → `2.2.2`
+- **Collective:** `8.81` → `8.86`
+- **Continuity:** `3.0.9` → `3.0.10`
+- **Copycats:** `3.0.9` → `3.0.11`
+- **Create Aeronautics Physics Gantry:** `1.1.1` → `1.2.1`
+- **Create Aeronautics: Toolgun:** `0.3.8` → `0.3.9`
+- **Create Encased:** `1.10.0-fix1` → `1.10.1`
+- **Create Nuclear:** `2.0.0` → `2.0.1`
+- **CreativeCore:** `2.13.52` → `2.13.54`
+- **EMF Compat: Core:** `2.3.2` → `2.4.0`
+- **EMF Compat: Create:** `2.1.0` → `2.1.1`
+- **EMF Compat: Exposure:** `1.0.0` → `1.0.1`
+- **EMF Compat: Gliders:** `2.0.0` → `2.0.1`
+- **EMF Compat: Supplementaries:** `1.1.1` → `1.1.2`
+- **EMF Compat: WATUT:** `1.0.0` → `1.1.0`
+- **Enhanced Boss Bars:** `1.1.2` → `1.1.3`
+- **Enhanced Celestials 2: Core:** `2.0.3.3` → `2.0.3.4`
+- **Enhanced Celestials 2: Default Lunar Events:** `2.0.1.3` → `2.0.1.4`
+- **Enhanced Celestials 2: Shaders:** `2.0.0.3` → `2.0.0.4`
+- **Entity Culling:** `1.11.3` → `1.12.0`
+- **Envelope:** `0.8.1` → `0.8.2`
+- **Exposure:** `1.9.19` → `1.9.21`
+- **FancyMenu:** `3.9.14` → `3.10.0`
+- **Immersive Overlays:** `1.8.6` → `1.8.7`
+- **LDLib2:** `2.2.45` → `2.2.46.a`
+- **Mezz Config:** `0.6.9` → `0.7.1`
+- **Moonlight Lib:** `3.8.1` → `3.8.3`
+- **Not Enough Recipe Book:** `0.4.3` → `0.6.2`
+- **Oh The Trees You'll Grow:** `5.3.5` → `5.3.6`
+- **OctoLib:** `0.6.2` → `0.6.3.2`
+- **Offgrid:** `1.0.4` → `1.0.6`
+- **Polytone:** `5.3.4` → `5.3.8`
+- **Punchy:** `3.1b` → `3.2b`
+- **Punchy Moves:** `1.0.7` → `1.0.9`
+- **REMI:** `4.8.1` → `4.8.2`
+- **Random Optimization:** `1.7.6` → `1.7.7`
+- **Right Click Harvest:** `4.6.1` → `4.7.0`
+- **SeeU:** `0.9.5` → `0.9.6`
+- **Sophisticated Backpacks:** `3.26.20` → `3.26.21`
+- **Sophisticated Core:** `1.5.28` → `1.5.35`
+- **Sophisticated Storage:** `1.6.16` → `1.6.18`
+- **WorldWeaver:** `21.0.30` → `21.0.31`
+
+*Guten Wind und sanfte Landungen. Wir sehen uns am Himmel!*
+*Tim*
+
 ## 1.2.5 (2026-11-06)
 
 *Ein Aufräum-Patch nach zwei Export-Pannen. Sorry für das Durcheinander.*

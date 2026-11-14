@@ -1,0 +1,13 @@
+A small patch for the version number and a few shader defaults.
+
+FIXED
+
+- The update check reported 1.3.1 in 1.3.2 and 1.3.3. It shows the correct version again.
+- Extra Quests slipped into 1.3.3 by mistake. It is removed again.
+
+CONFIG CHANGES
+
+Client defaults
+- Create JEI Compat: new setting, the page arrows on multi-page assembly recipes are off.
+- Complementary Reimagined: TAA and vignette are off, cloud altitude is 348.
+- Supplemental Patches: no rain above clouds, rain atmosphere is on.

@@ -1,12 +1,8 @@
-A tiny patch to take one mod back off the shelf.
+A tiny patch to tidy up an export slip.
 
-UNDER THE HOOD
+FIXED
 
-- More Quest Types, added in 1.3.0, is gone again.
-
-FAREWELLS
-
-- More Quest Types
+- More Quest Types slipped into 1.3.0 by mistake. It is removed again.
 
 CONFIG CHANGES
 

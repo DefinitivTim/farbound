@@ -1,0 +1,17 @@
+A small patch with a few updates and one familiar face.
+
+NEW ARRIVALS
+
+- Extra Quests 2.0.1
+
+CONFIG CHANGES
+
+- No config changes in this version.
+
+MOD SHELF
+
+3 mods were updated.
+
+- Continuity: 3.0.10 → 3.0.11
+- Entity Culling: 1.12.0 → 1.12.1
+- Just Enough Items: 19.64.0.455 → 19.70.0.469

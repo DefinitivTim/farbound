@@ -291,6 +291,16 @@
           "modrinth": "https://modrinth.com/modpack/farbound"
         }
       }
+    },
+    {
+      "id": "1.4.0",
+      "releasedAt": 1795168100000,
+      "updateType": "major",
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/farbound"
+        }
+      }
     }
   ]
 }

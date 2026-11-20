@@ -1,0 +1,118 @@
+Important: About 80 duplicate items were removed in this update, mostly food and ingredients that several mods added at once (for example from Farm & Charm, Create Food, More Delight, Wilder Nature and Ratatouille), plus the Slippery Copycat and the Sim Copycats Normal Copycat blocks. They will disappear from existing worlds and inventories. Recipes were adjusted so everything that remains stays craftable. Please back up your worlds before updating.
+
+Ahoy, Farbounders! Cast a line, ferment a barrel, cook with your own hands and fuel the ship at a proper pump. The galley got busier, the quest book got longer and the kitchen shelves got tidier.
+
+SETTING SAIL
+
+- Fishing with Starcatcher. A whole fishing system with fish to collect, plus Starcatcher's Delight for the cooking and a bridge to the Hybrid Aquatic fish.
+- Cook with your hands. Hands-On Delight turns the Farmer's Delight kitchen into stations you work at in the world, and Brewin' And Chewin' adds fermenting.
+- Youkai's Feasts. Touhou-style food and cooking utensils for the pantry.
+- Iron's Arms 'n Artifice. Historical-fantasy firearm builds for the Artificer in you.
+- Create: Western Pump. A proper fuel pump. Hang the hose on a tank or vehicle and the hose even stays attached to Aeronautics aircraft as they move.
+- More than 40 new quests. Mostly in Anchors Aweigh, Happy Hour and Broadside, and every chapter has a new logo.
+- One item per dish. Duplicate food and ingredients from different mods are gone, so the kitchen has one winner for each. See the note above before you update.
+
+NEW ARRIVALS
+
+- Starcatcher, Starcatcher's Delight and Hybrid Aquatic Starcatcher Compatibility
+- Hands-On Delight with its library Diegesis
+- Brewin' And Chewin'
+- Youkai's Feasts
+- Iron's Arms 'n Artifice with its library Iron's Lib
+- Create: Western Pump
+- Stabilized: more gyroscopic and stabilization blocks for Create Simulated
+- Gnetum: spreads HUD updates over several frames for smoother performance
+- More Culling is back
+- Create: Framed Brass, Copper and Zinc Windows are available again
+
+UNDER THE HOOD
+
+- Create Aeronautics 1.3.3 can dye hot air envelopes by itself, so Farbound's own dyeing recipe was dropped.
+- Create Radar 5.1.1: Sable cannon targeting can now avoid unbreakable blocks.
+- Create Hypertube 0.6.1 has an option for its in-world tube effects.
+- When several mods add the same item, one winner stays: Farmer's Delight first, then Youkai's Feasts, the Let's Do mods, Starcatcher's Delight, Hybrid Delights, End's and Nether Delight, Create Food and More Delight last.
+- Youkai's Feasts: its own Deer, Tuna and Crab no longer spawn. Their special drops now come from the deer of Wilder Nature, the tuna and crabs of Hybrid Aquatic and the crab of Friends & Foes, and venison comes from Youkai's Feasts.
+- Wilder Nature's turkey is gone, Hybrid Birds provides the turkey.
+- Cutting Board recipes were adjusted to the remaining items.
+- The REMI stack groups were reworked for the new mods and the removed duplicates.
+- Music Disc Maker and TT20 now ship inside the pack files instead of as downloads.
+- Complementary Reimagined and Unbound are updated to r5.10 together with Euphoria Patches 1.11.2.
+
+FAREWELLS
+
+- Async
+- Duplicate food and ingredients: 12 items from Farm & Charm, 24 copies from Create Food and further items from More Delight, Ratatouille, Create Factory, Herbal Brews, Bakery, Rustic Delight, Vinery, Brewery, Fruits Delight, Farmer's Delight and Hybrid Delights
+- Wilder Nature's turkey and venison as well as its Blunderbuss and ammunition
+- Slippery Copycat from Linear Bearing and the Normal Copycat with slab and stairs from Sim Copycats
+
+CONFIG CHANGES
+
+Server
+- ServerCore: dynamic performance checks are off.
+- Wilder Nature: the turkey spawn weight is 0.
+- Create Radar: new option, Sable cannon targeting avoids unbreakable blocks (on).
+
+Client defaults
+- Shaders: the custom settings are shipped again for Complementary Reimagined and Unbound (TAA and vignette off, cloud altitude 348) and Supplemental Patches (no rain above clouds, rain atmosphere on). The Iris config from 1.3.5 is no longer shipped, so your own shader choice stays.
+- Particle Rain: particle amount 750 (was 1500), storm density 1.2 (was 1.5) and quieter rain.
+- Particle Core: maximum particles per sheet 8192 (was 16384).
+- Subtle Effects: fewer mushroom spores, pollen and ambient particles.
+- SeeU: maximum render distance 4272 blocks (was 8192), animation distance 2032 and name tags off.
+- Antique Atlas: chunk tick limit 20 (was 100).
+- Lightspeed: the startup time is shown and startup recommendations are off.
+
+New options from updated mods
+- TT20: acceleration for the warden, shrieker, invulnerability frames and item cooldowns, all on.
+- Create Hypertube: tube visual effects (on).
+- Create Aeronautics: hot air rendering inside balloons (on).
+- Immersive Melodies: opening the menu no longer requires sneaking.
+
+New configs
+- Starcatcher, Brewin' And Chewin', Hands-On Delight, Iron's Arms 'n Artifice, Youkai's Feasts, Create: Western Pump and More Culling.
+
+MOD SHELF
+
+39 mods were updated.
+
+- Architectury: 13.0.11 → 13.0.12
+- CC: Tweaked: 1.121.0 → 1.122.0
+- Cinematic Respawn: 1.4.3 → 1.5.0
+- Collective: 8.86 → 8.87
+- Complementary Reimagined: r5.9.3 → r5.10
+- Complementary Unbound: r5.9.3 → r5.10
+- Continuity: 3.0.11 → 3.0.12
+- Create Aeronautics: 1.3.2 → 1.3.3
+- Create Aeronautics: Encased Fluid Pipes: 1.0.7 → 1.0.8
+- Create Aeronautics: Throwable Rope Connector: 0.4.3 → 0.5.0
+- Create Encased: 1.10.1 → 1.10.1-fix1
+- Create Flight Control: 0.8.3 → 0.8.5
+- Create Hypertube: 0.6.0 → 0.6.1
+- Create Radar: 5.0.3 → 5.1.1
+- Create: Coasters Simulated: 0.1.5 → 0.1.6
+- Euphoria Patcher: 1.10.5 → 1.11.2
+- Fancy World Animations: 1.3.7 → 1.3.7-patch.2
+- Friends & Foes: 5.0.4 → 5.0.5
+- Immersive Melodies: 0.8.2 → 0.8.4
+- Just Enough Items: 19.70.0.469 → 19.71.0.470
+- Kerria: 1.3.2 → 1.4.0
+- Kotlin for Forge: 5.12.0 → 5.13.0
+- Lightspeed: 2.0.5+hotfix → 2.0.6hotfix
+- Modonomicon: 1.123.0 → 1.123.1
+- Optimized Block Entities: 1.2.1-patch.1 → 1.2.13
+- Particle Rain: 4.0.3 → 4.0.4
+- Raise Sound Limit Simplified: 1.1.17 → 1.1.18
+- REMI: 4.8.4 → 4.9.0
+- Right Click Harvest: 4.7.0 → 4.7.1
+- Sophisticated Backpacks: 3.26.21.2249 → 3.26.22.2257
+- Sophisticated Core: 1.5.35.2473 → 1.5.39.2489
+- Sophisticated Inventory Interactions: 0.1.15.233 → 0.1.16.239
+- Sophisticated Storage: 1.6.18.2229 → 1.6.20.2239
+- Spelunkery: 0.4.4 → 0.4.5
+- Structure Layout Optimizer: 1.0.12 → 1.0.13
+- Subtle Effects: 1.15.2 → 1.15.3
+- SuperMartijn642's Core Lib: 1.1.26a → 1.1.26b
+- Supplementaries: 4.1.1 → 4.1.3
+- TT20: 0.8.5 → 0.9.2
+
+Fair winds and soft landings. See you in the skies!
+Tim

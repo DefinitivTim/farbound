@@ -2,6 +2,119 @@
 
 Alle wichtigen Änderungen an Farbound, neueste Version zuerst. Diese deutsche Fassung beginnt bei 1.1.1. Ältere Versionen findest du im englischen [CHANGELOG](CHANGELOG.md). Sichere vor jedem Update deine Welten.
 
+## 1.4.0: Bait & Barrel (2026-11-20)
+
+*Ahoi, Farbounder! Wirf die Angel aus, lass ein Fass gären, koche mit eigenen Händen und tanke das Schiff an einer richtigen Zapfsäule. Die Kombüse ist voller geworden, das Questbuch länger und die Küchenregale aufgeräumter.*
+
+### Segel setzen
+- **Angeln mit Starcatcher.** Ein komplettes Angelsystem mit Fischen zum Sammeln, dazu Starcatcher's Delight fürs Kochen und eine Brücke zu den Fischen von Hybrid Aquatic.
+- **Mit den Händen kochen.** Hands-On Delight macht aus der Küche von Farmer's Delight Stationen, an denen du in der Welt arbeitest, und Brewin' And Chewin' bringt das Fermentieren.
+- **Youkai's Feasts.** Essen und Kochutensilien im Touhou-Stil für die Speisekammer.
+- **Iron's Arms 'n Artifice.** Feuerwaffen im historisch-fantastischen Stil für den Artificer in dir.
+- **Create: Western Pump.** Eine richtige Zapfsäule. Häng den Schlauch an einen Tank oder ein Fahrzeug, und er bleibt sogar an Aeronautics-Luftschiffen hängen, während sie sich bewegen.
+- **Über 40 neue Quests.** Vor allem in Anchors Aweigh, Happy Hour und Broadside, und jedes Kapitel hat ein neues Logo.
+- **Ein Gegenstand pro Gericht.** Doppelte Lebensmittel und Zutaten aus verschiedenen Mods sind weg, für jedes bleibt ein Gewinner. Lies vor dem Update den Hinweis oben.
+
+### Neu an Bord
+- Starcatcher, Starcatcher's Delight und Hybrid Aquatic Starcatcher Compatibility
+- Hands-On Delight mit seiner Bibliothek Diegesis
+- Brewin' And Chewin'
+- Youkai's Feasts
+- Iron's Arms 'n Artifice mit seiner Bibliothek Iron's Lib
+- Create: Western Pump
+- Stabilized: mehr Gyroskop- und Stabilisierungsblöcke für Create Simulated
+- Gnetum: verteilt HUD-Updates auf mehrere Frames für flüssigere Performance
+- More Culling ist zurück
+- Create: Framed Fenster aus Messing, Kupfer und Zink sind wieder verfügbar
+
+### Unter der Haube
+- Create Aeronautics 1.3.3 kann Heißluft-Envelopes selbst einfärben, deshalb wurde das eigene Färbe-Rezept von Farbound entfernt.
+- Create Radar 5.1.1: Das Zielen der Sable-Kanonen kann jetzt unzerstörbare Blöcke meiden.
+- Create Hypertube 0.6.1 hat eine Option für die Röhren-Effekte in der Welt.
+- Wenn mehrere Mods denselben Gegenstand hinzufügen, bleibt ein Gewinner: zuerst Farmer's Delight, dann Youkai's Feasts, die Let's-Do-Mods, Starcatcher's Delight, Hybrid Delights, End's und Nether Delight, Create Food und zuletzt More Delight.
+- Youkai's Feasts: Die eigenen Hirsche, Thunfische und Krabben spawnen nicht mehr. Ihre besonderen Drops kommen jetzt von den Hirschen von Wilder Nature, den Thunfischen und Krabben von Hybrid Aquatic und der Krabbe von Friends & Foes, und Wildbret kommt von Youkai's Feasts.
+- Der Truthahn von Wilder Nature ist weg, Hybrid Birds liefert den Truthahn.
+- Schneidebrett-Rezepte wurden an die verbleibenden Gegenstände angepasst.
+- Die REMI-Stack-Groups wurden für die neuen Mods und die entfernten Duplikate überarbeitet.
+- Music Disc Maker und TT20 liegen jetzt in den Pack-Dateien statt als Download.
+- Complementary Reimagined und Unbound sind auf r5.10 aktualisiert, zusammen mit Euphoria Patches 1.11.2.
+
+### Abschied
+- Async
+- Doppelte Lebensmittel und Zutaten: 12 Gegenstände von Farm & Charm, 24 Kopien von Create Food und weitere Gegenstände von More Delight, Ratatouille, Create Factory, Herbal Brews, Bakery, Rustic Delight, Vinery, Brewery, Fruits Delight, Farmer's Delight und Hybrid Delights
+- Truthahn und Wildbret von Wilder Nature sowie seine Donnerbüchse und Munition
+- Slippery Copycat von Linear Bearing und das Normal Copycat mit Stufe und Treppe von Sim Copycats
+
+### Config-Änderungen
+**Server**
+- ServerCore: Die dynamischen Performance-Prüfungen sind aus.
+- Wilder Nature: Das Truthahn-Spawn-Gewicht ist 0.
+- Create Radar: neue Option, das Zielen der Sable-Kanonen meidet unzerstörbare Blöcke (an).
+
+**Client-Standards**
+- Shader: Die eigenen Einstellungen werden wieder mitgeliefert, für Complementary Reimagined und Unbound (TAA und Vignette aus, Wolkenhöhe 348) und für Supplemental Patches (kein Regen über den Wolken, Regenatmosphäre an). Die Iris-Config aus 1.3.5 wird nicht mehr mitgeliefert, deine eigene Shader-Wahl bleibt also erhalten.
+- Particle Rain: Partikelmenge 750 (vorher 1500), Sturmdichte 1,2 (vorher 1,5) und leiserer Regen.
+- Particle Core: maximale Partikel pro Sheet 8192 (vorher 16384).
+- Subtle Effects: weniger Pilzsporen, Pollen und Umgebungspartikel.
+- SeeU: maximale Renderdistanz 4272 Blöcke (vorher 8192), Animationsdistanz 2032 und Namensschilder aus.
+- Antique Atlas: Chunk-Tick-Limit 20 (vorher 100).
+- Lightspeed: Die Startzeit wird angezeigt und Start-Empfehlungen sind aus.
+
+**Neue Optionen aus aktualisierten Mods**
+- TT20: Beschleunigung für Warden, Shrieker, Unverwundbarkeitsframes und Item-Abklingzeiten, alle an.
+- Create Hypertube: visuelle Röhren-Effekte (an).
+- Create Aeronautics: Heißluft-Darstellung in Ballons (an).
+- Immersive Melodies: Zum Öffnen des Menüs muss man nicht mehr schleichen.
+
+**Neue Configs**
+- Starcatcher, Brewin' And Chewin', Hands-On Delight, Iron's Arms 'n Artifice, Youkai's Feasts, Create: Western Pump und More Culling.
+
+### Mod-Regal
+39 Mods wurden aktualisiert.
+
+- **Architectury:** `13.0.11` → `13.0.12`
+- **CC: Tweaked:** `1.121.0` → `1.122.0`
+- **Cinematic Respawn:** `1.4.3` → `1.5.0`
+- **Collective:** `8.86` → `8.87`
+- **Complementary Reimagined:** `r5.9.3` → `r5.10`
+- **Complementary Unbound:** `r5.9.3` → `r5.10`
+- **Continuity:** `3.0.11` → `3.0.12`
+- **Create Aeronautics:** `1.3.2` → `1.3.3`
+- **Create Aeronautics: Encased Fluid Pipes:** `1.0.7` → `1.0.8`
+- **Create Aeronautics: Throwable Rope Connector:** `0.4.3` → `0.5.0`
+- **Create Encased:** `1.10.1` → `1.10.1-fix1`
+- **Create Flight Control:** `0.8.3` → `0.8.5`
+- **Create Hypertube:** `0.6.0` → `0.6.1`
+- **Create Radar:** `5.0.3` → `5.1.1`
+- **Create: Coasters Simulated:** `0.1.5` → `0.1.6`
+- **Euphoria Patcher:** `1.10.5` → `1.11.2`
+- **Fancy World Animations:** `1.3.7` → `1.3.7-patch.2`
+- **Friends & Foes:** `5.0.4` → `5.0.5`
+- **Immersive Melodies:** `0.8.2` → `0.8.4`
+- **Just Enough Items:** `19.70.0.469` → `19.71.0.470`
+- **Kerria:** `1.3.2` → `1.4.0`
+- **Kotlin for Forge:** `5.12.0` → `5.13.0`
+- **Lightspeed:** `2.0.5+hotfix` → `2.0.6hotfix`
+- **Modonomicon:** `1.123.0` → `1.123.1`
+- **Optimized Block Entities:** `1.2.1-patch.1` → `1.2.13`
+- **Particle Rain:** `4.0.3` → `4.0.4`
+- **Raise Sound Limit Simplified:** `1.1.17` → `1.1.18`
+- **REMI:** `4.8.4` → `4.9.0`
+- **Right Click Harvest:** `4.7.0` → `4.7.1`
+- **Sophisticated Backpacks:** `3.26.21.2249` → `3.26.22.2257`
+- **Sophisticated Core:** `1.5.35.2473` → `1.5.39.2489`
+- **Sophisticated Inventory Interactions:** `0.1.15.233` → `0.1.16.239`
+- **Sophisticated Storage:** `1.6.18.2229` → `1.6.20.2239`
+- **Spelunkery:** `0.4.4` → `0.4.5`
+- **Structure Layout Optimizer:** `1.0.12` → `1.0.13`
+- **Subtle Effects:** `1.15.2` → `1.15.3`
+- **SuperMartijn642's Core Lib:** `1.1.26a` → `1.1.26b`
+- **Supplementaries:** `4.1.1` → `4.1.3`
+- **TT20:** `0.8.5` → `0.9.2`
+
+*Guten Wind und sanfte Landungen. Wir sehen uns am Himmel!*
+*Tim*
+
 ## 1.3.5 (2026-11-14)
 
 *Ein Patch, der Every Compat nach schweren Problemen wieder entfernt und ein paar hilfreiche Neuzugänge mitbringt.*

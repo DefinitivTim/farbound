@@ -4,6 +4,10 @@ name: Sync GitHub Issues to Jira
 # Projekt FAR (definitivtim.atlassian.net) an und kommentiert den Jira-Link
 # zurueck ins GitHub-Issue.
 #
+# Die Werte aus dem Bug-Report-Formular (.github/ISSUE_TEMPLATE/bug_report.yml)
+# werden auf die dafuer angelegten Jira-Felder des Vorgangstyps "Issue"
+# aufgeteilt, statt als ein Textblock in der Beschreibung zu landen.
+#
 # Benoetigte Repo-Secrets (Settings -> Secrets and variables -> Actions):
 #   JIRA_EMAIL      die Atlassian-Account-E-Mail von Tim
 #   JIRA_API_TOKEN  API-Token von https://id.atlassian.com/manage-profile/security/api-tokens
@@ -18,38 +22,109 @@ jobs:
     permissions:
       issues: write
     steps:
-      - name: Create Jira issue
+      - name: Jira-Payload aus dem Issue-Formular bauen
+        id: payload
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+        run: |
+          python3 <<'PYEOF'
+          import json
+          import os
+          import re
+
+          title = os.environ["ISSUE_TITLE"]
+          body = os.environ.get("ISSUE_BODY") or ""
+          url = os.environ["ISSUE_URL"]
+
+          # GitHub-Issue-Formulare rendern den Body als "### <Label>\n\n<Wert>\n\n..."
+          sections = {}
+          parts = re.split(r"^### (.+)$", body, flags=re.MULTILINE)
+          it = iter(parts[1:])
+          for label, content in zip(it, it):
+              sections[label.strip()] = content.strip()
+
+          def get(label):
+              value = sections.get(label, "").strip()
+              return None if value in ("", "_No response_") else value
+
+          pack_version = get("Farbound version")
+          launcher = get("Launcher")
+          mode = get("Singleplayer or multiplayer?")
+          ram = get("Allocated RAM and system")
+          what_happened = get("What happened?")
+          steps_text = get("Steps to reproduce")
+          logs = get("Logs")
+
+          extras_raw = sections.get("Active during the problem", "")
+          checked = [
+              m.group(1).strip()
+              for m in re.finditer(r"-\s*\[[xX]\]\s*(.+)", extras_raw)
+          ]
+          extras_label_map = {
+              "I added, removed or updated mods myself": "Mods selbst verändert",
+          }
+          checked_values = [extras_label_map.get(c, c) for c in checked]
+
+          mode_map = {
+              "Multiplayer (client)": "Multiplayer (Client)",
+              "Multiplayer (server side problem)": "Multiplayer (Server)",
+          }
+
+          fields = {
+              "project": {"key": "FAR"},
+              "summary": title,
+              "issuetype": {"name": "Issue"},
+              "labels": ["github"],
+          }
+
+          description_lines = [f"GitHub Issue: {url}"]
+          if what_happened:
+              description_lines += ["", what_happened]
+
+          # Logs ist ein Jira-URL-Feld: nur setzen, wenn es wirklich eine URL ist,
+          # sonst landet der Text in der Beschreibung statt die Jira-API-Validierung
+          # (und damit die ganze Issue-Erstellung) zum Scheitern zu bringen.
+          if logs:
+              if re.match(r"^https?://\S+$", logs):
+                  fields["customfield_10051"] = logs
+              else:
+                  description_lines += ["", f"Logs: {logs}"]
+
+          if pack_version:
+              fields["customfield_10045"] = pack_version
+          if launcher:
+              fields["customfield_10046"] = {"value": launcher}
+          if mode:
+              fields["customfield_10047"] = {"value": mode_map.get(mode, mode)}
+          if ram:
+              fields["customfield_10048"] = ram
+          if checked_values:
+              fields["customfield_10049"] = [{"value": v} for v in checked_values]
+          if steps_text:
+              fields["customfield_10050"] = steps_text
+
+          fields["description"] = "\n".join(description_lines)
+
+          with open("jira_payload.json", "w", encoding="utf-8") as f:
+              json.dump({"fields": fields}, f, ensure_ascii=False)
+          PYEOF
+
+      - name: Jira-Issue anlegen
         id: create
         env:
           JIRA_BASE_URL: https://definitivtim.atlassian.net
           JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
           JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
-          ISSUE_TITLE: ${{ github.event.issue.title }}
-          ISSUE_BODY: ${{ github.event.issue.body }}
-          ISSUE_URL: ${{ github.event.issue.html_url }}
         run: |
           set -euo pipefail
-
-          DESCRIPTION=$(printf 'GitHub Issue: %s\n\n%s' "$ISSUE_URL" "$ISSUE_BODY")
-
-          PAYLOAD=$(jq -n \
-            --arg summary "$ISSUE_TITLE" \
-            --arg desc "$DESCRIPTION" \
-            '{
-              fields: {
-                project: { key: "FAR" },
-                summary: $summary,
-                description: $desc,
-                issuetype: { name: "Task" },
-                labels: ["github"]
-              }
-            }')
 
           HTTP_RESPONSE=$(curl -sS -w "\n%{http_code}" \
             -u "$JIRA_EMAIL:$JIRA_API_TOKEN" \
             -X POST \
             -H "Content-Type: application/json" \
-            --data "$PAYLOAD" \
+            --data @jira_payload.json \
             "$JIRA_BASE_URL/rest/api/2/issue")
 
           HTTP_CODE=$(echo "$HTTP_RESPONSE" | tail -n1)

@@ -1,0 +1,76 @@
+name: Sync GitHub Issues to Jira
+
+# Legt bei jedem neuen GitHub-Issue automatisch ein passendes Jira-Issue im
+# Projekt FAR (definitivtim.atlassian.net) an und kommentiert den Jira-Link
+# zurueck ins GitHub-Issue.
+#
+# Benoetigte Repo-Secrets (Settings -> Secrets and variables -> Actions):
+#   JIRA_EMAIL      die Atlassian-Account-E-Mail von Tim
+#   JIRA_API_TOKEN  API-Token von https://id.atlassian.com/manage-profile/security/api-tokens
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  create-jira-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Jira issue
+        id: create
+        env:
+          JIRA_BASE_URL: https://definitivtim.atlassian.net
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+        run: |
+          set -euo pipefail
+
+          DESCRIPTION=$(printf 'GitHub Issue: %s\n\n%s' "$ISSUE_URL" "$ISSUE_BODY")
+
+          PAYLOAD=$(jq -n \
+            --arg summary "$ISSUE_TITLE" \
+            --arg desc "$DESCRIPTION" \
+            '{
+              fields: {
+                project: { key: "FAR" },
+                summary: $summary,
+                description: $desc,
+                issuetype: { name: "Task" },
+                labels: ["github"]
+              }
+            }')
+
+          HTTP_RESPONSE=$(curl -sS -w "\n%{http_code}" \
+            -u "$JIRA_EMAIL:$JIRA_API_TOKEN" \
+            -X POST \
+            -H "Content-Type: application/json" \
+            --data "$PAYLOAD" \
+            "$JIRA_BASE_URL/rest/api/2/issue")
+
+          HTTP_CODE=$(echo "$HTTP_RESPONSE" | tail -n1)
+          BODY=$(echo "$HTTP_RESPONSE" | sed '$d')
+
+          if [ "$HTTP_CODE" -ge 300 ]; then
+            echo "::error::Jira API Fehler ($HTTP_CODE): $BODY"
+            exit 1
+          fi
+
+          JIRA_KEY=$(echo "$BODY" | jq -r '.key')
+          echo "Erstellt: $JIRA_KEY"
+          echo "jira_key=$JIRA_KEY" >> "$GITHUB_OUTPUT"
+
+      - name: Jira-Link als Kommentar ins GitHub-Issue schreiben
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const jiraKey = "${{ steps.create.outputs.jira_key }}";
+            const jiraUrl = `https://definitivtim.atlassian.net/browse/${jiraKey}`;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `Verknuepft mit Jira: [${jiraKey}](${jiraUrl})`
+            });

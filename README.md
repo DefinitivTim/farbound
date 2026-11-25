@@ -33,11 +33,12 @@
 1. Install the [Modrinth App](https://modrinth.com/app).
 2. Search for **Farbound** and click **Install**, or open the [Modrinth page](https://modrinth.com/modpack/farbound).
 3. Give the instance **8 GB of RAM** and launch. The first launch takes a while, that is normal.
+4. On the first launch, download the quest mods with the buttons on the start screen and restart. They cannot ship inside a Modrinth pack.
 
 Other launchers are covered in the [Installation guide](https://github.com/DefinitivTim/farbound/wiki/Installation).
 
 **Good to know**
-- **RAM:** 8 GB minimum. 12 GB if you enable Distant Horizons (optional, ships disabled).
+- **RAM:** 8 GB minimum.
 - **Shaders:** optional. Create: Aeronautics vessels can show visual glitches with Iris shaders, see [Troubleshooting](https://github.com/DefinitivTim/farbound/wiki/Troubleshooting).
 - **Updates:** back up your worlds before updating.
 
@@ -56,7 +57,7 @@ Everything lives in the [wiki](https://github.com/DefinitivTim/farbound/wiki):
 
 ## Bugs and suggestions
 
-Use the [issue tracker](https://github.com/DefinitivTim/farbound/issues/new/choose). The templates ask for pack version, launcher, allocated RAM, whether Distant Horizons or shaders were active, and your `latest.log`. Please reproduce problems on an unmodified pack first.
+Use the [issue tracker](https://github.com/DefinitivTim/farbound/issues/new/choose). The templates ask for pack version, launcher, allocated RAM, whether shaders were active, and your `latest.log`. Please reproduce problems on an unmodified pack first.
 
 Mod suggestions are welcome. A mod needs to fit the theme (vehicles, home or performance), run well with the rest of the pack and allow redistribution in a public modpack.
 

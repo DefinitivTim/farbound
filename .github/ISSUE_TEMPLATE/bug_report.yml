@@ -50,8 +50,6 @@ body:
       label: Active during the problem
       options:
         - label: Shaders (Iris)
-        - label: Distant Horizons
-        - label: Atmospherics
         - label: I added, removed or updated mods myself
   - type: textarea
     id: what_happened

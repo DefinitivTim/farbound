@@ -1,1 +1,0 @@
-Farbound requires a minimum of 8GB of RAM allocated to Minecraft. Leave a few GB for your system, so do not allocate everything your PC has.

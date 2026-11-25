@@ -1,1 +1,0 @@
-The very first time you launch the modpack, loading can take noticeably longer than usual. This is normal. Subsequent launches will be much faster.
